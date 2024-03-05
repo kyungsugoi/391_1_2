@@ -1,3 +1,5 @@
+USE [391_1_2]
+GO
 
 -------------------- GET INSTUCTORS -------------------------
 CREATE PROCEDURE spGetInstFaculty
@@ -7,7 +9,7 @@ BEGIN
     FROM Instructors
     ORDER BY Faculty ASC;
 END;
-
+GO
 
 CREATE PROCEDURE spGetInstRank
 AS
@@ -16,7 +18,7 @@ BEGIN
     FROM Instructors
     ORDER BY Rank ASC;
 END;
-
+GO
 
 CREATE PROCEDURE spGetInstUni
 AS
@@ -25,9 +27,9 @@ BEGIN
     FROM Instructors
     ORDER BY University ASC;
 END;
+GO
 
 -------------------- GET STUDENTS -------------------------
-
 CREATE PROCEDURE spGetStuMajor
 AS
 BEGIN
@@ -35,7 +37,7 @@ BEGIN
     FROM Students
     ORDER BY Major ASC;
 END;
-
+GO
 
 CREATE PROCEDURE spGetStuGender
 AS
@@ -44,11 +46,9 @@ BEGIN
     FROM Students
     ORDER BY Gender ASC;
 END;
-
-
+GO
 
 -------------------- GET COURSES -------------------------
-
 CREATE PROCEDURE spGetCourseDept
 AS
 BEGIN
@@ -56,10 +56,9 @@ BEGIN
     FROM Courses
     ORDER BY Department ASC;
 END;
-
+GO
 
 -------------------- GET DATES -------------------------
-
 CREATE PROCEDURE spGetSemester
 AS
 BEGIN
@@ -67,7 +66,7 @@ BEGIN
     FROM Date
     ORDER BY Semester ASC;
 END;
-
+GO
 
 CREATE PROCEDURE spGetYear
 AS
@@ -76,3 +75,4 @@ BEGIN
     FROM Date
     ORDER BY Year ASC;
 END;
+GO
