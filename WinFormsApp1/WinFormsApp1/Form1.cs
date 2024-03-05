@@ -90,11 +90,26 @@ namespace WinFormsApp1
             // WHERE string builder
             StringBuilder whereQuery = new StringBuilder();
 
+            if (cmbInstruct.SelectedIndex != 0 || cmbFaculty.SelectedIndex != 0 || cmbUni.SelectedIndex != 0 || cmbRank.SelectedIndex != 0 || cmbStudents.SelectedIndex != 0 || cmbMajor.SelectedIndex != 0 || cmbGender.SelectedIndex != 0 || cmbDept.SelectedIndex != 0 || cmbSemester.SelectedIndex != 0 || cmbYear.SelectedIndex != 0)
+            {
+                whereQuery.Append(" WHERE");
+            }
+
+            // WHERE or AND builder to whereQuery
+
             // Instructor Table dynamic conditions
             if (cmbInstruct.SelectedIndex != 0 || cmbFaculty.SelectedIndex != 0 || cmbUni.SelectedIndex != 0 || cmbRank.SelectedIndex != 0)
             {
                 fromQuery.Append(", Instructors");
-                whereQuery.Append(" WHERE CoursesTaken.Instructor_Key=Instructors.Instructor_Key");
+
+                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE")) 
+                {
+                    whereQuery.Append(" CoursesTaken.Instructor_Key=Instructors.Instructor_Key");
+                }
+                else
+                {
+                    whereQuery.Append(" AND CoursesTaken.Instructor_Key=Instructors.Instructor_Key");
+                }
 
                 // Check to see which cmb is not index 0 then put a where clause for it
                 if (cmbInstruct.SelectedIndex != 0)
@@ -105,7 +120,7 @@ namespace WinFormsApp1
                 if (cmbFaculty.SelectedIndex != 0)
                 {
                     String faculty = (String)cmbFaculty.SelectedItem;
-                    whereQuery.Append(" AND Faculty = '" + faculty + "'");
+                    whereQuery.Append(" AND Instructors.Faculty = '" + faculty + "'");
                 }
                 if (cmbUni.SelectedIndex != 0)
                 {
@@ -123,7 +138,15 @@ namespace WinFormsApp1
             if (cmbStudents.SelectedIndex != 0 || cmbMajor.SelectedIndex != 0 || cmbGender.SelectedIndex != 0)
             {
                 fromQuery.Append(", Students");
-                whereQuery.Append(" WHERE CoursesTaken.Student_Key=Students.Student_Key");
+
+                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE"))
+                {
+                    whereQuery.Append(" CoursesTaken.Student_Key=Students.Student_Key");
+                }
+                else
+                {
+                    whereQuery.Append(" AND CoursesTaken.Student_Key=Students.Student_Key");
+                }
 
                 // Check to see which cmb is not index 0 then put a where clause for it
                 if (cmbStudents.SelectedIndex != 0)
@@ -147,13 +170,23 @@ namespace WinFormsApp1
             if (cmbDept.SelectedIndex != 0)
             {
                 fromQuery.Append(", Courses");
-                whereQuery.Append(" WHERE CoursesTaken.Course_Key=Courses.Course_Key");
+
+                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE"))
+                {
+                    whereQuery.Append(" CoursesTaken.Course_Key=Courses.Course_Key");
+                }
+                else
+                {
+                    whereQuery.Append(" AND CoursesTaken.Course_Key=Courses.Course_Key");
+                }
+
+
 
                 // Check to see which cmb is not index 0 then put a where clause for it
                 if (cmbDept.SelectedIndex != 0)
                 {
-                    String courseID = (String)cmbDept.SelectedItem;
-                    whereQuery.Append(" AND Courses.Department = '" + courseID + "'");
+                    String department = (String)cmbDept.SelectedItem;
+                    whereQuery.Append(" AND Courses.Department = '" + department + "'");
                 }
             }
 
@@ -161,7 +194,16 @@ namespace WinFormsApp1
             if (cmbSemester.SelectedIndex != 0 || cmbYear.SelectedIndex != 0)
             {
                 fromQuery.Append(", Date");
-                whereQuery.Append(" WHERE CoursesTaken.Date_Key=Date.Date_Key");
+
+
+                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE"))
+                {
+                    whereQuery.Append(" CoursesTaken.Date_Key=Date.Date_Key");
+                }
+                else
+                {
+                    whereQuery.Append(" AND CoursesTaken.Date_Key=Date.Date_Key");
+                }
 
                 // Check to see which cmb is not index 0 then put a where clause for it
                 if (cmbSemester.SelectedIndex != 0)
