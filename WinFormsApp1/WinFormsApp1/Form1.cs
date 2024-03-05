@@ -48,8 +48,8 @@ namespace WinFormsApp1
             InitializeComponent();
 
             // (local) will default to your server, no need to hardcode it anymore
-            String connectionString = "Server = DESKTOP-5HTNF3D\\SQLEXPRESS; Database = 391_1_2; Trusted_Connection = yes;";
-            //String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
+            // String connectionString = "Server = DESKTOP-5HTNF3D\\SQLEXPRESS; Database = 391_1_2; Trusted_Connection = yes;";
+            String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
 
             SqlConnection myConnection = new SqlConnection(connectionString);
 
@@ -77,7 +77,121 @@ namespace WinFormsApp1
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
+            SqlConnection myConnection = new SqlConnection(connectionString);
+            StringBuilder query = new StringBuilder();
 
+            // Initial query for empty selections
+            query.Append("SELECT COUNT(Total_Courses) AS Total FROM CoursesTaken");
+
+            // FROM string builder
+            StringBuilder fromQuery = new StringBuilder();
+
+            // WHERE string builder
+            StringBuilder whereQuery = new StringBuilder();
+
+            // Instructor Table dynamic conditions
+            if (cmbInstruct.SelectedIndex != 0 || cmbFaculty.SelectedIndex != 0 || cmbUni.SelectedIndex != 0 || cmbRank.SelectedIndex != 0)
+            {
+                fromQuery.Append(", Instructors");
+                whereQuery.Append(" WHERE CoursesTaken.Instructor_Key=Instructors.Instructor_Key");
+
+                // Check to see which cmb is not index 0 then put a where clause for it
+                if (cmbInstruct.SelectedIndex != 0)
+                {
+                    String instructorID = (String)cmbInstruct.SelectedItem;
+                    whereQuery.Append(" AND Instructors.Instructor_Key = '" + instructorID + "'");
+                }
+                if (cmbFaculty.SelectedIndex != 0)
+                {
+                    String faculty = (String)cmbFaculty.SelectedItem;
+                    whereQuery.Append(" AND Faculty = '" + faculty + "'");
+                }
+                if (cmbUni.SelectedIndex != 0)
+                {
+                    String university = (String)cmbUni.SelectedItem;
+                    whereQuery.Append(" AND University = '" + university + "'");
+                }
+                if (cmbRank.SelectedIndex != 0)
+                {
+                    String rank = (String)cmbRank.SelectedItem;
+                    whereQuery.Append(" AND Rank = '" + rank + "'");
+                }
+            }
+
+            // Student Table dynamic conditions
+            if (cmbStudents.SelectedIndex != 0 || cmbMajor.SelectedIndex != 0 || cmbGender.SelectedIndex != 0)
+            {
+                fromQuery.Append(", Students");
+                whereQuery.Append(" WHERE CoursesTaken.Student_Key=Students.Student_Key");
+
+                // Check to see which cmb is not index 0 then put a where clause for it
+                if (cmbStudents.SelectedIndex != 0)
+                {
+                    String studentID = (String)cmbStudents.SelectedItem;
+                    whereQuery.Append(" AND Students.Student_Key = '" + studentID + "'");
+                }
+                if (cmbMajor.SelectedIndex != 0)
+                {
+                    String major = (String)cmbMajor.SelectedItem;
+                    whereQuery.Append(" AND Major = '" + major + "'");
+                }
+                if (cmbGender.SelectedIndex != 0)
+                {
+                    String gender = (String)cmbGender.SelectedItem;
+                    whereQuery.Append(" AND Gender = '" + gender + "'");
+                }
+            }
+
+            // Courses Table dynamic conditions
+            if (cmbDept.SelectedIndex != 0)
+            {
+                fromQuery.Append(", Courses");
+                whereQuery.Append(" WHERE CoursesTaken.Course_Key=Courses.Course_Key");
+
+                // Check to see which cmb is not index 0 then put a where clause for it
+                if (cmbDept.SelectedIndex != 0)
+                {
+                    String courseID = (String)cmbDept.SelectedItem;
+                    whereQuery.Append(" AND Courses.Department = '" + courseID + "'");
+                }
+            }
+
+            // Date Table dynamic conditions
+            if (cmbSemester.SelectedIndex != 0 || cmbYear.SelectedIndex != 0)
+            {
+                fromQuery.Append(", Date");
+                whereQuery.Append(" WHERE CoursesTaken.Date_Key=Date.Date_Key");
+
+                // Check to see which cmb is not index 0 then put a where clause for it
+                if (cmbSemester.SelectedIndex != 0)
+                {
+                    String semester = (String)cmbSemester.SelectedItem;
+                    whereQuery.Append(" AND Semester = '" + semester + "'");
+                }
+                if (cmbYear.SelectedIndex != 0)
+                {
+                    String year = (String)cmbYear.SelectedItem;
+                    whereQuery.Append(" AND Year = '" + year + "'");
+                }
+            }
+
+            query.Append(fromQuery).Append(whereQuery);
+
+            try
+            {
+                myConnection.Open();
+                SqlCommand command = new SqlCommand(query.ToString(), myConnection);
+
+                int total = (int)command.ExecuteScalar();
+
+                txtResult.Text = total.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error");
+                this.Close();
+            }
         }
 
         public void fillInstFacultyBox()
