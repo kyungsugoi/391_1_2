@@ -29,6 +29,15 @@ BEGIN
 END;
 GO
 
+CREATE PROCEDURE spGetInst
+AS
+BEGIN
+    SELECT DISTINCT Instructor_Key
+    FROM Instructors
+    ORDER BY Instructor_Key ASC;
+END;
+GO
+
 -------------------- GET STUDENTS -------------------------
 CREATE PROCEDURE spGetStuMajor
 AS
@@ -45,6 +54,15 @@ BEGIN
     SELECT DISTINCT Gender
     FROM Students
     ORDER BY Gender ASC;
+END;
+GO
+
+CREATE PROCEDURE spGetStu
+AS
+BEGIN
+    SELECT DISTINCT Student_Key
+    FROM Students
+    ORDER BY Student_Key ASC;
 END;
 GO
 

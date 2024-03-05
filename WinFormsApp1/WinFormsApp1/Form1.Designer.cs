@@ -46,7 +46,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtResult = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -83,6 +83,7 @@
             this.cmbUni.Size = new System.Drawing.Size(136, 23);
             this.cmbUni.TabIndex = 1;
             this.cmbUni.Text = "Any";
+            this.cmbUni.TextChanged += new System.EventHandler(this.cmbUni_TextChanged);
             // 
             // cmbSemester
             // 
@@ -94,6 +95,7 @@
             this.cmbSemester.Size = new System.Drawing.Size(136, 23);
             this.cmbSemester.TabIndex = 2;
             this.cmbSemester.Text = "Any";
+            this.cmbSemester.TextChanged += new System.EventHandler(this.cmbSemester_TextChanged);
             // 
             // cmbDept
             // 
@@ -105,6 +107,7 @@
             this.cmbDept.Size = new System.Drawing.Size(136, 23);
             this.cmbDept.TabIndex = 3;
             this.cmbDept.Text = "Any";
+            this.cmbDept.TextChanged += new System.EventHandler(this.cmbDept_TextChanged);
             // 
             // cmbFaculty
             // 
@@ -116,6 +119,7 @@
             this.cmbFaculty.Size = new System.Drawing.Size(136, 23);
             this.cmbFaculty.TabIndex = 4;
             this.cmbFaculty.Text = "Any";
+            this.cmbFaculty.TextChanged += new System.EventHandler(this.cmbFaculty_TextChanged);
             // 
             // cmbInstruct
             // 
@@ -127,6 +131,7 @@
             this.cmbInstruct.Size = new System.Drawing.Size(136, 23);
             this.cmbInstruct.TabIndex = 5;
             this.cmbInstruct.Text = "Any";
+            this.cmbInstruct.TextChanged += new System.EventHandler(this.cmbInstruct_TextChanged);
             // 
             // cmbRank
             // 
@@ -138,6 +143,7 @@
             this.cmbRank.Size = new System.Drawing.Size(136, 23);
             this.cmbRank.TabIndex = 6;
             this.cmbRank.Text = "Any";
+            this.cmbRank.TextChanged += new System.EventHandler(this.cmbRank_TextChanged);
             // 
             // cmbYear
             // 
@@ -149,6 +155,7 @@
             this.cmbYear.Size = new System.Drawing.Size(136, 23);
             this.cmbYear.TabIndex = 7;
             this.cmbYear.Text = "Any";
+            this.cmbYear.TextChanged += new System.EventHandler(this.cmbYear_TextChanged);
             // 
             // cmbStudents
             // 
@@ -160,6 +167,7 @@
             this.cmbStudents.Size = new System.Drawing.Size(136, 23);
             this.cmbStudents.TabIndex = 8;
             this.cmbStudents.Text = "Any";
+            this.cmbStudents.TextChanged += new System.EventHandler(this.cmbStudents_TextChanged);
             // 
             // label1
             // 
@@ -242,13 +250,13 @@
             this.label9.TabIndex = 17;
             this.label9.Text = "Results:";
             // 
-            // textBox1
+            // txtResult
             // 
-            this.textBox1.Location = new System.Drawing.Point(161, 698);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(136, 23);
-            this.textBox1.TabIndex = 18;
+            this.txtResult.Location = new System.Drawing.Point(161, 698);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.ReadOnly = true;
+            this.txtResult.Size = new System.Drawing.Size(136, 23);
+            this.txtResult.TabIndex = 18;
             // 
             // label10
             // 
@@ -309,6 +317,7 @@
             this.cmbMajor.Size = new System.Drawing.Size(136, 23);
             this.cmbMajor.TabIndex = 23;
             this.cmbMajor.Text = "Any";
+            this.cmbMajor.TextChanged += new System.EventHandler(this.cmbMajor_TextChanged);
             // 
             // label15
             // 
@@ -329,6 +338,7 @@
             this.cmbGender.Size = new System.Drawing.Size(136, 23);
             this.cmbGender.TabIndex = 25;
             this.cmbGender.Text = "Any";
+            this.cmbGender.TextChanged += new System.EventHandler(this.cmbGender_TextChanged);
             // 
             // label16
             // 
@@ -409,7 +419,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtResult);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -457,7 +467,7 @@
         private Label label7;
         private Label label8;
         private Label label9;
-        private TextBox textBox1;
+        private TextBox txtResult;
         private Label label10;
         private Label label11;
         private Label label12;
