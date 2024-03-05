@@ -21,13 +21,35 @@ namespace WinFormsApp1
         public SqlCommand myCommand;
         public SqlDataReader myReader;
 
+        //Strings For Building
+        public String Instructor = "Any";
+        public String Faculty = "Any";
+        public String University = "Any";
+        public String Rank = "Any";
+
+        public String Students = "Any";
+        public String Major = "Any";
+        public String Gender = "Any";
+
+        public String Department = "Any";
+
+        public String Semester = "Any";
+        public String Year = "Any";
+
+
+
+
+
+
+
+
         public Form1()
         {
             InitializeComponent();
 
             // (local) will default to your server, no need to hardcode it anymore
-            //String connectionString = "Server = DESKTOP-5HTNF3D\\SQLEXPRESS; Database = 391_1_2; Trusted_Connection = yes;";
-            String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
+            String connectionString = "Server = DESKTOP-5HTNF3D\\SQLEXPRESS; Database = 391_1_2; Trusted_Connection = yes;";
+            //String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
 
             SqlConnection myConnection = new SqlConnection(connectionString);
 
@@ -48,6 +70,11 @@ namespace WinFormsApp1
 
         }
 
+        public void stringBuilder()
+        {
+
+        }
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
 
@@ -64,6 +91,30 @@ namespace WinFormsApp1
                 while (myReader.Read())
                 {
                     cmbFaculty.Items.Add(myReader["Faculty"].ToString());
+
+                }
+
+
+                myReader.Close();
+            }
+            catch (Exception e3)
+            {
+                MessageBox.Show(e3.ToString(), "Error");
+            }
+
+        }
+
+        public void fillInstBox()
+        {
+            try
+            {
+                myCommand.CommandText = "spGetInst"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandType = CommandType.StoredProcedure;
+                myReader = myCommand.ExecuteReader();
+
+                while (myReader.Read())
+                {
+                    cmbInstruct.Items.Add(myReader["Instructor_Key"].ToString());
 
                 }
 
@@ -125,6 +176,29 @@ namespace WinFormsApp1
 
         }
 
+        public void fillStuBox()
+        {
+            try
+            {
+                myCommand.CommandText = "spGetStu"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandType = CommandType.StoredProcedure;
+                myReader = myCommand.ExecuteReader();
+
+                while (myReader.Read())
+                {
+                    cmbStudents.Items.Add(myReader["Student_Key"].ToString());
+
+                }
+
+
+                myReader.Close();
+            }
+            catch (Exception e3)
+            {
+                MessageBox.Show(e3.ToString(), "Error");
+            }
+
+        }
 
         public void fillStuMajorBox()
         {
@@ -254,11 +328,13 @@ namespace WinFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
             // FILL INSTUCTORS
+            fillInstBox();
             fillInstFacultyBox();
             fillInstRankBox(); 
             fillInstUniBox();
 
             // FILL STUDENTS
+            fillStuBox();
             fillStuMajorBox();
             fillStuGenderBox();
 
@@ -273,6 +349,58 @@ namespace WinFormsApp1
             
 
 
+        }
+
+        // Update Strings
+        private void cmbInstruct_TextChanged(object sender, EventArgs e)
+        {
+            Instructor = cmbInstruct.Text;
+            //txtResult.Text = Instructor;
+        }
+
+        private void cmbFaculty_TextChanged(object sender, EventArgs e)
+        {
+            Faculty = cmbFaculty.Text;
+        }
+
+        private void cmbUni_TextChanged(object sender, EventArgs e)
+        {
+            University = cmbUni.Text;
+        }
+
+        private void cmbRank_TextChanged(object sender, EventArgs e)
+        {
+            Rank = cmbRank.Text;
+        }
+
+        private void cmbStudents_TextChanged(object sender, EventArgs e)
+        {
+            Students = cmbStudents.Text; 
+        }
+
+        private void cmbMajor_TextChanged(object sender, EventArgs e)
+        {
+            Major = cmbMajor.Text;
+        }
+
+        private void cmbGender_TextChanged(object sender, EventArgs e)
+        {
+            Gender = cmbGender.Text;
+        }
+
+        private void cmbDept_TextChanged(object sender, EventArgs e)
+        {
+            Department = cmbDept.Text;
+        }
+
+        private void cmbSemester_TextChanged(object sender, EventArgs e)
+        {
+            Semester = cmbSemester.Text;
+        }
+
+        private void cmbYear_TextChanged(object sender, EventArgs e)
+        {
+            Year = cmbYear.Text;
         }
     }
 }
