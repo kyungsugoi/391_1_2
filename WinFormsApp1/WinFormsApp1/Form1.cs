@@ -129,6 +129,7 @@ namespace WinFormsApp1
             {
                 fromQuery.Append(", Courses C");
                 whereQuery.Append(delimiter).Append("CT.Course_Key = C.Course_Key");
+                delimiter = " AND ";
                 whereQuery.Append(delimiter).Append("C.Department = '" + Department + "'");
             }
 
