@@ -28,423 +28,464 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.cmbUni = new System.Windows.Forms.ComboBox();
-            this.cmbSemester = new System.Windows.Forms.ComboBox();
-            this.cmbDept = new System.Windows.Forms.ComboBox();
-            this.cmbFaculty = new System.Windows.Forms.ComboBox();
-            this.cmbInstruct = new System.Windows.Forms.ComboBox();
-            this.cmbRank = new System.Windows.Forms.ComboBox();
-            this.cmbYear = new System.Windows.Forms.ComboBox();
-            this.cmbStudents = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtResult = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.cmbMajor = new System.Windows.Forms.ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.cmbGender = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            btnSearch = new Button();
+            cmbUni = new ComboBox();
+            cmbSemester = new ComboBox();
+            cmbDept = new ComboBox();
+            cmbFaculty = new ComboBox();
+            cmbInstruct = new ComboBox();
+            cmbRank = new ComboBox();
+            cmbYear = new ComboBox();
+            cmbStudents = new ComboBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            txtResult = new TextBox();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            cmbMajor = new ComboBox();
+            label15 = new Label();
+            cmbGender = new ComboBox();
+            label16 = new Label();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
+            label21 = new Label();
+            SuspendLayout();
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(68, 646);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(229, 36);
-            this.btnSearch.TabIndex = 0;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            btnSearch.Location = new Point(126, 1378);
+            btnSearch.Margin = new Padding(6);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(425, 77);
+            btnSearch.TabIndex = 0;
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // cmbUni
             // 
-            this.cmbUni.FormattingEnabled = true;
-            this.cmbUni.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbUni.Location = new System.Drawing.Point(158, 140);
-            this.cmbUni.Name = "cmbUni";
-            this.cmbUni.Size = new System.Drawing.Size(136, 23);
-            this.cmbUni.TabIndex = 1;
-            this.cmbUni.Text = "Any";
-            this.cmbUni.TextChanged += new System.EventHandler(this.cmbUni_TextChanged);
+            cmbUni.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbUni.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbUni.FormattingEnabled = true;
+            cmbUni.Items.AddRange(new object[] { "Any" });
+            cmbUni.Location = new Point(293, 299);
+            cmbUni.Margin = new Padding(6);
+            cmbUni.Name = "cmbUni";
+            cmbUni.Size = new Size(249, 40);
+            cmbUni.TabIndex = 1;
+            cmbUni.Text = "Any";
+            cmbUni.TextChanged += cmbUni_TextChanged;
             // 
             // cmbSemester
             // 
-            this.cmbSemester.FormattingEnabled = true;
-            this.cmbSemester.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbSemester.Location = new System.Drawing.Point(158, 526);
-            this.cmbSemester.Name = "cmbSemester";
-            this.cmbSemester.Size = new System.Drawing.Size(136, 23);
-            this.cmbSemester.TabIndex = 2;
-            this.cmbSemester.Text = "Any";
-            this.cmbSemester.TextChanged += new System.EventHandler(this.cmbSemester_TextChanged);
+            cmbSemester.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbSemester.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbSemester.FormattingEnabled = true;
+            cmbSemester.Items.AddRange(new object[] { "Any" });
+            cmbSemester.Location = new Point(293, 1122);
+            cmbSemester.Margin = new Padding(6);
+            cmbSemester.Name = "cmbSemester";
+            cmbSemester.Size = new Size(249, 40);
+            cmbSemester.TabIndex = 2;
+            cmbSemester.Text = "Any";
+            cmbSemester.TextChanged += cmbSemester_TextChanged;
             // 
             // cmbDept
             // 
-            this.cmbDept.FormattingEnabled = true;
-            this.cmbDept.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbDept.Location = new System.Drawing.Point(158, 441);
-            this.cmbDept.Name = "cmbDept";
-            this.cmbDept.Size = new System.Drawing.Size(136, 23);
-            this.cmbDept.TabIndex = 3;
-            this.cmbDept.Text = "Any";
-            this.cmbDept.TextChanged += new System.EventHandler(this.cmbDept_TextChanged);
+            cmbDept.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbDept.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbDept.FormattingEnabled = true;
+            cmbDept.Items.AddRange(new object[] { "Any" });
+            cmbDept.Location = new Point(293, 941);
+            cmbDept.Margin = new Padding(6);
+            cmbDept.Name = "cmbDept";
+            cmbDept.Size = new Size(249, 40);
+            cmbDept.TabIndex = 3;
+            cmbDept.Text = "Any";
+            cmbDept.TextChanged += cmbDept_TextChanged;
             // 
             // cmbFaculty
             // 
-            this.cmbFaculty.FormattingEnabled = true;
-            this.cmbFaculty.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbFaculty.Location = new System.Drawing.Point(158, 99);
-            this.cmbFaculty.Name = "cmbFaculty";
-            this.cmbFaculty.Size = new System.Drawing.Size(136, 23);
-            this.cmbFaculty.TabIndex = 4;
-            this.cmbFaculty.Text = "Any";
-            this.cmbFaculty.TextChanged += new System.EventHandler(this.cmbFaculty_TextChanged);
+            cmbFaculty.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbFaculty.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbFaculty.FormattingEnabled = true;
+            cmbFaculty.Items.AddRange(new object[] { "Any" });
+            cmbFaculty.Location = new Point(293, 211);
+            cmbFaculty.Margin = new Padding(6);
+            cmbFaculty.Name = "cmbFaculty";
+            cmbFaculty.Size = new Size(249, 40);
+            cmbFaculty.TabIndex = 4;
+            cmbFaculty.Text = "Any";
+            cmbFaculty.TextChanged += cmbFaculty_TextChanged;
             // 
             // cmbInstruct
             // 
-            this.cmbInstruct.FormattingEnabled = true;
-            this.cmbInstruct.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbInstruct.Location = new System.Drawing.Point(158, 57);
-            this.cmbInstruct.Name = "cmbInstruct";
-            this.cmbInstruct.Size = new System.Drawing.Size(136, 23);
-            this.cmbInstruct.TabIndex = 5;
-            this.cmbInstruct.Text = "Any";
-            this.cmbInstruct.TextChanged += new System.EventHandler(this.cmbInstruct_TextChanged);
+            cmbInstruct.FormattingEnabled = true;
+            cmbInstruct.Items.AddRange(new object[] { "Any" });
+            cmbInstruct.Location = new Point(293, 122);
+            cmbInstruct.Margin = new Padding(6);
+            cmbInstruct.Name = "cmbInstruct";
+            cmbInstruct.Size = new Size(249, 40);
+            cmbInstruct.TabIndex = 5;
+            cmbInstruct.Text = "Any";
+            cmbInstruct.TextChanged += cmbInstruct_TextChanged;
             // 
             // cmbRank
             // 
-            this.cmbRank.FormattingEnabled = true;
-            this.cmbRank.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbRank.Location = new System.Drawing.Point(158, 180);
-            this.cmbRank.Name = "cmbRank";
-            this.cmbRank.Size = new System.Drawing.Size(136, 23);
-            this.cmbRank.TabIndex = 6;
-            this.cmbRank.Text = "Any";
-            this.cmbRank.TextChanged += new System.EventHandler(this.cmbRank_TextChanged);
+            cmbRank.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbRank.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbRank.FormattingEnabled = true;
+            cmbRank.Items.AddRange(new object[] { "Any" });
+            cmbRank.Location = new Point(293, 384);
+            cmbRank.Margin = new Padding(6);
+            cmbRank.Name = "cmbRank";
+            cmbRank.Size = new Size(249, 40);
+            cmbRank.TabIndex = 6;
+            cmbRank.Text = "Any";
+            cmbRank.TextChanged += cmbRank_TextChanged;
             // 
             // cmbYear
             // 
-            this.cmbYear.FormattingEnabled = true;
-            this.cmbYear.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbYear.Location = new System.Drawing.Point(158, 561);
-            this.cmbYear.Name = "cmbYear";
-            this.cmbYear.Size = new System.Drawing.Size(136, 23);
-            this.cmbYear.TabIndex = 7;
-            this.cmbYear.Text = "Any";
-            this.cmbYear.TextChanged += new System.EventHandler(this.cmbYear_TextChanged);
+            cmbYear.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbYear.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbYear.FormattingEnabled = true;
+            cmbYear.Items.AddRange(new object[] { "Any" });
+            cmbYear.Location = new Point(293, 1197);
+            cmbYear.Margin = new Padding(6);
+            cmbYear.Name = "cmbYear";
+            cmbYear.Size = new Size(249, 40);
+            cmbYear.TabIndex = 7;
+            cmbYear.Text = "Any";
+            cmbYear.TextChanged += cmbYear_TextChanged;
             // 
             // cmbStudents
             // 
-            this.cmbStudents.FormattingEnabled = true;
-            this.cmbStudents.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbStudents.Location = new System.Drawing.Point(158, 268);
-            this.cmbStudents.Name = "cmbStudents";
-            this.cmbStudents.Size = new System.Drawing.Size(136, 23);
-            this.cmbStudents.TabIndex = 8;
-            this.cmbStudents.Text = "Any";
-            this.cmbStudents.TextChanged += new System.EventHandler(this.cmbStudents_TextChanged);
+            cmbStudents.FormattingEnabled = true;
+            cmbStudents.Items.AddRange(new object[] { "Any" });
+            cmbStudents.Location = new Point(293, 572);
+            cmbStudents.Margin = new Padding(6);
+            cmbStudents.Name = "cmbStudents";
+            cmbStudents.Size = new Size(249, 40);
+            cmbStudents.TabIndex = 8;
+            cmbStudents.Text = "Any";
+            cmbStudents.TextChanged += cmbStudents_TextChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 143);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 15);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "University";
+            label1.AutoSize = true;
+            label1.Location = new Point(143, 305);
+            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(119, 32);
+            label1.TabIndex = 9;
+            label1.Text = "University";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(77, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 15);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Faculty";
+            label2.AutoSize = true;
+            label2.Location = new Point(143, 218);
+            label2.Margin = new Padding(6, 0, 6, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(88, 32);
+            label2.TabIndex = 10;
+            label2.Text = "Faculty";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(77, 444);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 15);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Department";
+            label3.AutoSize = true;
+            label3.Location = new Point(143, 947);
+            label3.Margin = new Padding(6, 0, 6, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(142, 32);
+            label3.TabIndex = 11;
+            label3.Text = "Department";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(77, 60);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 15);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Instructor";
+            label4.AutoSize = true;
+            label4.Location = new Point(143, 128);
+            label4.Margin = new Padding(6, 0, 6, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(115, 32);
+            label4.TabIndex = 12;
+            label4.Text = "Instructor";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(77, 183);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 15);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Rank";
+            label5.AutoSize = true;
+            label5.Location = new Point(143, 390);
+            label5.Margin = new Padding(6, 0, 6, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(66, 32);
+            label5.TabIndex = 13;
+            label5.Text = "Rank";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(77, 529);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 15);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Semester";
+            label6.AutoSize = true;
+            label6.Location = new Point(143, 1129);
+            label6.Margin = new Padding(6, 0, 6, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(113, 32);
+            label6.TabIndex = 14;
+            label6.Text = "Semester";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(77, 564);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 15);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Year";
+            label7.AutoSize = true;
+            label7.Location = new Point(143, 1203);
+            label7.Margin = new Padding(6, 0, 6, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(58, 32);
+            label7.TabIndex = 15;
+            label7.Text = "Year";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(77, 271);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 15);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Students";
+            label8.AutoSize = true;
+            label8.Location = new Point(143, 578);
+            label8.Margin = new Padding(6, 0, 6, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(107, 32);
+            label8.TabIndex = 16;
+            label8.Text = "Students";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(68, 701);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 15);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Results:";
+            label9.AutoSize = true;
+            label9.Location = new Point(126, 1495);
+            label9.Margin = new Padding(6, 0, 6, 0);
+            label9.Name = "label9";
+            label9.Size = new Size(93, 32);
+            label9.TabIndex = 17;
+            label9.Text = "Results:";
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(161, 698);
-            this.txtResult.Name = "txtResult";
-            this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(136, 23);
-            this.txtResult.TabIndex = 18;
+            txtResult.Location = new Point(299, 1489);
+            txtResult.Margin = new Padding(6);
+            txtResult.Name = "txtResult";
+            txtResult.ReadOnly = true;
+            txtResult.Size = new Size(249, 39);
+            txtResult.TabIndex = 18;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(68, 9);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(109, 25);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "Instructors";
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.Location = new Point(126, 19);
+            label10.Margin = new Padding(6, 0, 6, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(215, 51);
+            label10.TabIndex = 19;
+            label10.Text = "Instructors";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(59, 18);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(252, 25);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "______________________________";
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label11.Location = new Point(110, 38);
+            label11.Margin = new Padding(6, 0, 6, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(502, 51);
+            label11.TabIndex = 20;
+            label11.Text = "______________________________";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(68, 219);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(91, 25);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "Students";
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.Location = new Point(126, 467);
+            label12.Margin = new Padding(6, 0, 6, 0);
+            label12.Name = "label12";
+            label12.Size = new Size(180, 51);
+            label12.TabIndex = 21;
+            label12.Text = "Students";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(59, 228);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(252, 25);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "______________________________";
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.Location = new Point(110, 486);
+            label13.Margin = new Padding(6, 0, 6, 0);
+            label13.Name = "label13";
+            label13.Size = new Size(502, 51);
+            label13.TabIndex = 22;
+            label13.Text = "______________________________";
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(77, 314);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(38, 15);
-            this.label14.TabIndex = 24;
-            this.label14.Text = "Major";
+            label14.AutoSize = true;
+            label14.Location = new Point(143, 670);
+            label14.Margin = new Padding(6, 0, 6, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(76, 32);
+            label14.TabIndex = 24;
+            label14.Text = "Major";
             // 
             // cmbMajor
             // 
-            this.cmbMajor.FormattingEnabled = true;
-            this.cmbMajor.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbMajor.Location = new System.Drawing.Point(158, 311);
-            this.cmbMajor.Name = "cmbMajor";
-            this.cmbMajor.Size = new System.Drawing.Size(136, 23);
-            this.cmbMajor.TabIndex = 23;
-            this.cmbMajor.Text = "Any";
-            this.cmbMajor.TextChanged += new System.EventHandler(this.cmbMajor_TextChanged);
+            cmbMajor.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbMajor.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbMajor.FormattingEnabled = true;
+            cmbMajor.Items.AddRange(new object[] { "Any" });
+            cmbMajor.Location = new Point(293, 663);
+            cmbMajor.Margin = new Padding(6);
+            cmbMajor.Name = "cmbMajor";
+            cmbMajor.Size = new Size(249, 40);
+            cmbMajor.TabIndex = 23;
+            cmbMajor.Text = "Any";
+            cmbMajor.TextChanged += cmbMajor_TextChanged;
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(77, 361);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(45, 15);
-            this.label15.TabIndex = 26;
-            this.label15.Text = "Gender";
+            label15.AutoSize = true;
+            label15.Location = new Point(143, 770);
+            label15.Margin = new Padding(6, 0, 6, 0);
+            label15.Name = "label15";
+            label15.Size = new Size(92, 32);
+            label15.TabIndex = 26;
+            label15.Text = "Gender";
             // 
             // cmbGender
             // 
-            this.cmbGender.FormattingEnabled = true;
-            this.cmbGender.Items.AddRange(new object[] {
-            "Any"});
-            this.cmbGender.Location = new System.Drawing.Point(158, 358);
-            this.cmbGender.Name = "cmbGender";
-            this.cmbGender.Size = new System.Drawing.Size(136, 23);
-            this.cmbGender.TabIndex = 25;
-            this.cmbGender.Text = "Any";
-            this.cmbGender.TextChanged += new System.EventHandler(this.cmbGender_TextChanged);
+            cmbGender.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbGender.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbGender.FormattingEnabled = true;
+            cmbGender.Items.AddRange(new object[] { "Any" });
+            cmbGender.Location = new Point(293, 764);
+            cmbGender.Margin = new Padding(6);
+            cmbGender.Name = "cmbGender";
+            cmbGender.Size = new Size(249, 40);
+            cmbGender.TabIndex = 25;
+            cmbGender.Text = "Any";
+            cmbGender.TextChanged += cmbGender_TextChanged;
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(68, 400);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(82, 25);
-            this.label16.TabIndex = 27;
-            this.label16.Text = "Courses";
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label16.Location = new Point(126, 853);
+            label16.Margin = new Padding(6, 0, 6, 0);
+            label16.Name = "label16";
+            label16.Size = new Size(162, 51);
+            label16.TabIndex = 27;
+            label16.Text = "Courses";
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(59, 409);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(252, 25);
-            this.label17.TabIndex = 28;
-            this.label17.Text = "______________________________";
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label17.Location = new Point(110, 873);
+            label17.Margin = new Padding(6, 0, 6, 0);
+            label17.Name = "label17";
+            label17.Size = new Size(502, 51);
+            label17.TabIndex = 28;
+            label17.Text = "______________________________";
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(68, 486);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(53, 25);
-            this.label18.TabIndex = 29;
-            this.label18.Text = "Date";
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label18.Location = new Point(126, 1037);
+            label18.Margin = new Padding(6, 0, 6, 0);
+            label18.Name = "label18";
+            label18.Size = new Size(106, 51);
+            label18.TabIndex = 29;
+            label18.Text = "Date";
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(59, 495);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(252, 25);
-            this.label19.TabIndex = 30;
-            this.label19.Text = "______________________________";
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label19.Location = new Point(110, 1056);
+            label19.Margin = new Padding(6, 0, 6, 0);
+            label19.Name = "label19";
+            label19.Size = new Size(502, 51);
+            label19.TabIndex = 30;
+            label19.Text = "______________________________";
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(69, 595);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(74, 25);
-            this.label20.TabIndex = 31;
-            this.label20.Text = "Results";
+            label20.AutoSize = true;
+            label20.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label20.Location = new Point(128, 1269);
+            label20.Margin = new Padding(6, 0, 6, 0);
+            label20.Name = "label20";
+            label20.Size = new Size(150, 51);
+            label20.TabIndex = 31;
+            label20.Text = "Results";
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label21.Location = new System.Drawing.Point(60, 604);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(252, 25);
-            this.label21.TabIndex = 32;
-            this.label21.Text = "______________________________";
+            label21.AutoSize = true;
+            label21.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label21.Location = new Point(111, 1289);
+            label21.Margin = new Padding(6, 0, 6, 0);
+            label21.Name = "label21";
+            label21.Size = new Size(502, 51);
+            label21.TabIndex = 32;
+            label21.Text = "______________________________";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(367, 742);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.cmbGender);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.cmbMajor);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.txtResult);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.cmbStudents);
-            this.Controls.Add(this.cmbYear);
-            this.Controls.Add(this.cmbRank);
-            this.Controls.Add(this.cmbInstruct);
-            this.Controls.Add(this.cmbFaculty);
-            this.Controls.Add(this.cmbDept);
-            this.Controls.Add(this.cmbSemester);
-            this.Controls.Add(this.cmbUni);
-            this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.label11);
-            this.Name = "Form1";
-            this.Text = "Data Viewer";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            AutoScrollMargin = new Size(10, 10);
+            BackColor = Color.MistyRose;
+            ClientSize = new Size(682, 1583);
+            Controls.Add(label20);
+            Controls.Add(label21);
+            Controls.Add(label18);
+            Controls.Add(label19);
+            Controls.Add(label16);
+            Controls.Add(label17);
+            Controls.Add(label15);
+            Controls.Add(cmbGender);
+            Controls.Add(label14);
+            Controls.Add(cmbMajor);
+            Controls.Add(label12);
+            Controls.Add(label13);
+            Controls.Add(label10);
+            Controls.Add(txtResult);
+            Controls.Add(label9);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(cmbStudents);
+            Controls.Add(cmbYear);
+            Controls.Add(cmbRank);
+            Controls.Add(cmbInstruct);
+            Controls.Add(cmbFaculty);
+            Controls.Add(cmbDept);
+            Controls.Add(cmbSemester);
+            Controls.Add(cmbUni);
+            Controls.Add(btnSearch);
+            Controls.Add(label11);
+            Margin = new Padding(6);
+            Name = "Form1";
+            Text = "Data Viewer";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
