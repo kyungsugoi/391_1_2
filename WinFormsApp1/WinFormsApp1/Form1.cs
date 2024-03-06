@@ -1,16 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
-using System.Xml;
-using System.Xml.Linq;
-using Microsoft.VisualBasic.ApplicationServices;
 
 namespace WinFormsApp1
 {
@@ -21,13 +11,13 @@ namespace WinFormsApp1
         public SqlCommand myCommand;
         public SqlDataReader myReader;
 
-        //Strings For Building
+        // Strings For Building
         public String Instructor = "Any";
         public String Faculty = "Any";
         public String University = "Any";
         public String Rank = "Any";
 
-        public String Students = "Any";
+        public String Student = "Any";
         public String Major = "Any";
         public String Gender = "Any";
 
@@ -36,200 +26,147 @@ namespace WinFormsApp1
         public String Semester = "Any";
         public String Year = "Any";
 
-
-
-
-
-
-
-
         public Form1()
         {
             InitializeComponent();
 
-            // (local) will default to your server, no need to hardcode it anymore
-            // String connectionString = "Server = DESKTOP-5HTNF3D\\SQLEXPRESS; Database = 391_1_2; Trusted_Connection = yes;";
-            String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
-
-            SqlConnection myConnection = new SqlConnection(connectionString);
-
             try
             {
+                // (local) will default to your server, no need to hardcode it anymore
+                String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
+                myConnection = new SqlConnection(connectionString);
                 myConnection.Open();
-                myCommand = new SqlCommand();
-                myCommand.Connection = myConnection;
             }
-            catch (Exception e)
+            catch
             {
-                MessageBox.Show(e.ToString(), "Error");
-                this.Close();
+                String connectionString = "Server = DESKTOP-5HTNF3D\\SQLEXPRESS; Database = 391_1_2; Trusted_Connection = yes;";
+                myConnection = new SqlConnection(connectionString);
 
+                try
+                {
+                    myConnection.Open();
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.ToString(), "Error");
+                    this.Close();
+                }
             }
 
-            
-
-        }
-
-        public void stringBuilder()
-        {
-
+            myCommand = new SqlCommand();
+            myCommand.Connection = myConnection;
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            String connectionString = "Server = (local); Database = 391_1_2; Trusted_Connection = yes;";
-            SqlConnection myConnection = new SqlConnection(connectionString);
+            // no need to connect to the server again, we're already connected from above
             StringBuilder query = new StringBuilder();
 
             // Initial query for empty selections
-            query.Append("SELECT COUNT(Total_Courses) AS Total FROM CoursesTaken");
+            query.Append("SELECT COUNT(Total_Courses) FROM CoursesTaken CT");
 
             // FROM string builder
             StringBuilder fromQuery = new StringBuilder();
 
             // WHERE string builder
             StringBuilder whereQuery = new StringBuilder();
+            String delimiter = " WHERE ";
 
-            if (cmbInstruct.SelectedIndex != 0 || cmbFaculty.SelectedIndex != 0 || cmbUni.SelectedIndex != 0 || cmbRank.SelectedIndex != 0 || cmbStudents.SelectedIndex != 0 || cmbMajor.SelectedIndex != 0 || cmbGender.SelectedIndex != 0 || cmbDept.SelectedIndex != 0 || cmbSemester.SelectedIndex != 0 || cmbYear.SelectedIndex != 0)
+            if (cmbInstruct.SelectedIndex != 0)
             {
-                whereQuery.Append(" WHERE");
+                whereQuery.Append(delimiter).Append("CT.Instructor_Key = '" + Instructor + "'");
+                delimiter = " AND ";
             }
 
-            // WHERE or AND builder to whereQuery
-
             // Instructor Table dynamic conditions
-            if (cmbInstruct.SelectedIndex != 0 || cmbFaculty.SelectedIndex != 0 || cmbUni.SelectedIndex != 0 || cmbRank.SelectedIndex != 0)
+            if (cmbFaculty.SelectedIndex != 0 || cmbUni.SelectedIndex != 0 || cmbRank.SelectedIndex != 0)
             {
-                fromQuery.Append(", Instructors");
-
-                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE")) 
-                {
-                    whereQuery.Append(" CoursesTaken.Instructor_Key=Instructors.Instructor_Key");
-                }
-                else
-                {
-                    whereQuery.Append(" AND CoursesTaken.Instructor_Key=Instructors.Instructor_Key");
-                }
+                fromQuery.Append(", Instructors I");
+                whereQuery.Append(delimiter).Append("CT.Instructor_Key = I.Instructor_Key");
+                delimiter = " AND ";
 
                 // Check to see which cmb is not index 0 then put a where clause for it
-                if (cmbInstruct.SelectedIndex != 0)
-                {
-                    String instructorID = (String)cmbInstruct.SelectedItem;
-                    whereQuery.Append(" AND Instructors.Instructor_Key = '" + instructorID + "'");
-                }
                 if (cmbFaculty.SelectedIndex != 0)
                 {
-                    String faculty = (String)cmbFaculty.SelectedItem;
-                    whereQuery.Append(" AND Instructors.Faculty = '" + faculty + "'");
+                    whereQuery.Append(delimiter).Append("I.Faculty = '" + Faculty + "'");
                 }
                 if (cmbUni.SelectedIndex != 0)
                 {
-                    String university = (String)cmbUni.SelectedItem;
-                    whereQuery.Append(" AND Instructors.University = '" + university + "'");
+                    whereQuery.Append(delimiter).Append("I.University = '" + University + "'");
                 }
                 if (cmbRank.SelectedIndex != 0)
                 {
-                    String rank = (String)cmbRank.SelectedItem;
-                    whereQuery.Append(" AND Instructors.Rank = '" + rank + "'");
+                    whereQuery.Append(delimiter).Append("I.Rank = '" + Rank + "'");
                 }
             }
 
-            // Student Table dynamic conditions
-            if (cmbStudents.SelectedIndex != 0 || cmbMajor.SelectedIndex != 0 || cmbGender.SelectedIndex != 0)
+            if (cmbStudents.SelectedIndex != 0)
             {
-                fromQuery.Append(", Students");
+                whereQuery.Append(delimiter).Append("CT.Student_Key = '" + Student + "'");
+                delimiter = " AND ";
+            }
 
-                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE"))
-                {
-                    whereQuery.Append(" CoursesTaken.Student_Key=Students.Student_Key");
-                }
-                else
-                {
-                    whereQuery.Append(" AND CoursesTaken.Student_Key=Students.Student_Key");
-                }
+            // Student Table dynamic conditions
+            if (cmbMajor.SelectedIndex != 0 || cmbGender.SelectedIndex != 0)
+            {
+                fromQuery.Append(", Students S");
+                whereQuery.Append(delimiter).Append("CT.Student_Key = S.Student_Key");
+                delimiter = " AND ";
 
                 // Check to see which cmb is not index 0 then put a where clause for it
-                if (cmbStudents.SelectedIndex != 0)
-                {
-                    String studentID = (String)cmbStudents.SelectedItem;
-                    whereQuery.Append(" AND Students.Student_Key = '" + studentID + "'");
-                }
                 if (cmbMajor.SelectedIndex != 0)
                 {
-                    String major = (String)cmbMajor.SelectedItem;
-                    whereQuery.Append(" AND Students.Major = '" + major + "'");
+                    whereQuery.Append(delimiter).Append("S.Major = '" + Major + "'");
                 }
                 if (cmbGender.SelectedIndex != 0)
                 {
-                    String gender = (String)cmbGender.SelectedItem;
-                    whereQuery.Append(" AND Students.Gender = '" + gender + "'");
+                    whereQuery.Append(delimiter).Append("S.Gender = '" + Gender + "'");
                 }
             }
 
             // Courses Table dynamic conditions
             if (cmbDept.SelectedIndex != 0)
             {
-                fromQuery.Append(", Courses");
-
-                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE"))
-                {
-                    whereQuery.Append(" CoursesTaken.Course_Key=Courses.Course_Key");
-                }
-                else
-                {
-                    whereQuery.Append(" AND CoursesTaken.Course_Key=Courses.Course_Key");
-                }
-
-                // Check to see which cmb is not index 0 then put a where clause for it
-                if (cmbDept.SelectedIndex != 0)
-                {
-                    String department = (String)cmbDept.SelectedItem;
-                    whereQuery.Append(" AND Courses.Department = '" + department + "'");
-                }
+                fromQuery.Append(", Courses C");
+                whereQuery.Append(delimiter).Append("CT.Course_Key = C.Course_Key");
+                whereQuery.Append(delimiter).Append("C.Department = '" + Department + "'");
             }
 
             // Date Table dynamic conditions
             if (cmbSemester.SelectedIndex != 0 || cmbYear.SelectedIndex != 0)
             {
-                fromQuery.Append(", Date");
-
-
-                if (whereQuery.ToString().TrimEnd().EndsWith("WHERE"))
-                {
-                    whereQuery.Append(" CoursesTaken.Date_Key=Date.Date_Key");
-                }
-                else
-                {
-                    whereQuery.Append(" AND CoursesTaken.Date_Key=Date.Date_Key");
-                }
+                fromQuery.Append(", Date D");
+                whereQuery.Append(delimiter).Append("CT.Date_Key = D.Date_Key");
+                delimiter = " AND ";
 
                 // Check to see which cmb is not index 0 then put a where clause for it
                 if (cmbSemester.SelectedIndex != 0)
                 {
-                    String semester = (String)cmbSemester.SelectedItem;
-                    whereQuery.Append(" AND Date.Semester = '" + semester + "'");
+                    whereQuery.Append(delimiter).Append("D.Semester = '" + Semester + "'");
                 }
                 if (cmbYear.SelectedIndex != 0)
                 {
-                    String year = (String)cmbYear.SelectedItem;
-                    whereQuery.Append(" AND Date.Year = '" + year + "'");
+                    whereQuery.Append(delimiter).Append("D.Year = '" + Year + "'");
                 }
             }
 
-            query.Append(fromQuery).Append(whereQuery);
+            query.Append(fromQuery);
+            if (whereQuery.Length > 0)
+            {
+                query.Append(whereQuery);
+            }
 
             try
             {
-                myConnection.Open();
                 SqlCommand command = new SqlCommand(query.ToString(), myConnection);
 
-                int total = (int)command.ExecuteScalar();
+                int total = (int) command.ExecuteScalar();
 
                 txtResult.Text = total.ToString();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString(), "Error");
+                MessageBox.Show(query.ToString() + "\n\n" + ex.ToString(), "Error");
                 this.Close();
             }
         }
@@ -238,16 +175,14 @@ namespace WinFormsApp1
         {
             try
             {
-                myCommand.CommandText = "spGetInstFaculty"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetInstFaculty"; // Assuming your stored procedure name is spGetInstFaculty
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbFaculty.Items.Add(myReader["Faculty"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -255,23 +190,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
 
         public void fillInstBox()
         {
             try
             {
-                myCommand.CommandText = "spGetInst"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetInst"; // Assuming your stored procedure name is spGetInst
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbInstruct.Items.Add(myReader["Instructor_Key"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -279,23 +211,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
 
         public void fillInstRankBox()
         {
             try
             {
-                myCommand.CommandText = "spGetInstRank"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetInstRank"; // Assuming your stored procedure name is spGetInstRank
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbRank.Items.Add(myReader["Rank"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -303,23 +232,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
 
         public void fillInstUniBox()
         {
             try
             {
-                myCommand.CommandText = "spGetInstUni"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetInstUni"; // Assuming your stored procedure name is spGetInstUni
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbUni.Items.Add(myReader["University"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -327,23 +253,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
 
         public void fillStuBox()
         {
             try
             {
-                myCommand.CommandText = "spGetStu"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetStu"; // Assuming your stored procedure name is spGetStu
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbStudents.Items.Add(myReader["Student_Key"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -351,23 +274,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
 
         public void fillStuMajorBox()
         {
             try
             {
-                myCommand.CommandText = "spGetStuMajor"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetStuMajor"; // Assuming your stored procedure name is spGetStuMajor
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbMajor.Items.Add(myReader["Major"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -375,23 +295,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
 
         public void fillStuGenderBox()
         {
             try
             {
-                myCommand.CommandText = "spGetStuGender"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetStuGender"; // Assuming your stored procedure name is spGetStuGender
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbGender.Items.Add(myReader["Gender"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -399,24 +316,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
-
 
         public void fillCourseBox()
         {
             try
             {
-                myCommand.CommandText = "spGetCourseDept"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetCourseDept"; // Assuming your stored procedure name is spGetCourseDept
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbDept.Items.Add(myReader["Department"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -424,24 +337,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
-
 
         public void fillSemesterBox()
         {
             try
             {
-                myCommand.CommandText = "spGetSemester"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetSemester"; // Assuming your stored procedure name is spGetSemester
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbSemester.Items.Add(myReader["Semester"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -449,23 +358,20 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
 
         public void fillYearBox()
         {
             try
             {
-                myCommand.CommandText = "spGetYear"; // Assuming your stored procedure name is spLogin
+                myCommand.CommandText = "spGetYear"; // Assuming your stored procedure name is spGetYear
                 myCommand.CommandType = CommandType.StoredProcedure;
                 myReader = myCommand.ExecuteReader();
 
                 while (myReader.Read())
                 {
                     cmbYear.Items.Add(myReader["Year"].ToString());
-
                 }
-
 
                 myReader.Close();
             }
@@ -473,18 +379,14 @@ namespace WinFormsApp1
             {
                 MessageBox.Show(e3.ToString(), "Error");
             }
-
         }
-
-
-
 
         private void Form1_Load(object sender, EventArgs e)
         {
             // FILL INSTUCTORS
             fillInstBox();
             fillInstFacultyBox();
-            fillInstRankBox(); 
+            fillInstRankBox();
             fillInstUniBox();
 
             // FILL STUDENTS
@@ -495,21 +397,15 @@ namespace WinFormsApp1
             // FILL COURSES
             fillCourseBox();
 
-
             // FILL DATE
             fillSemesterBox();
             fillYearBox();
-
-            
-
-
         }
 
         // Update Strings
         private void cmbInstruct_TextChanged(object sender, EventArgs e)
         {
             Instructor = cmbInstruct.Text;
-            //txtResult.Text = Instructor;
         }
 
         private void cmbFaculty_TextChanged(object sender, EventArgs e)
@@ -529,7 +425,7 @@ namespace WinFormsApp1
 
         private void cmbStudents_TextChanged(object sender, EventArgs e)
         {
-            Students = cmbStudents.Text; 
+            Student = cmbStudents.Text; 
         }
 
         private void cmbMajor_TextChanged(object sender, EventArgs e)
