@@ -113,7 +113,7 @@ PRINT 'Tables created'
 
 
 -- drop stored procedure if it exists
-IF OBJECT_ID ('TestDatabase.dbo.getStrFromList', 'P') IS NOT NULL  
+IF OBJECT_ID ('dbo.getStrFromList', 'P') IS NOT NULL  
     DROP PROCEDURE dbo.getStrFromList;  
 GO
 
@@ -135,7 +135,7 @@ GO
 
 
 -- drop stored procedure if it exists
-IF OBJECT_ID ('TestDatabase.dbo.getRandNum', 'P') IS NOT NULL  
+IF OBJECT_ID ('dbo.getRandNum', 'P') IS NOT NULL  
     DROP PROCEDURE dbo.getRandNum;  
 GO
 

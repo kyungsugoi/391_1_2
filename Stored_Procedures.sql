@@ -2,6 +2,12 @@ USE [391_1_2]
 GO
 
 -------------------- GET INSTUCTORS -------------------------
+
+-- drop stored procedure if it exists
+IF OBJECT_ID ('dbo.spGetInstFaculty', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetInstFaculty;  
+GO
+
 CREATE PROCEDURE spGetInstFaculty
 AS
 BEGIN
@@ -11,6 +17,9 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID ('dbo.spGetInstRank', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetInstRank;  
+GO
 CREATE PROCEDURE spGetInstRank
 AS
 BEGIN
@@ -20,6 +29,9 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID ('dbo.spGetInstUni', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetInstUni;  
+GO
 CREATE PROCEDURE spGetInstUni
 AS
 BEGIN
@@ -29,16 +41,21 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID ('dbo.spGetInst', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetInst;  
+GO
 CREATE PROCEDURE spGetInst
 AS
 BEGIN
-    SELECT DISTINCT Instructor_Key
+    SELECT Instructor_Key
     FROM Instructors
-    ORDER BY Instructor_Key ASC;
 END;
 GO
 
 -------------------- GET STUDENTS -------------------------
+IF OBJECT_ID ('dbo.spGetStuMajor', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetStuMajor;  
+GO
 CREATE PROCEDURE spGetStuMajor
 AS
 BEGIN
@@ -48,6 +65,9 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID ('dbo.spGetStuGender', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetStuGender;  
+GO
 CREATE PROCEDURE spGetStuGender
 AS
 BEGIN
@@ -57,16 +77,21 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID ('dbo.spGetStu', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetStu;  
+GO
 CREATE PROCEDURE spGetStu
 AS
 BEGIN
-    SELECT DISTINCT Student_Key
+    SELECT Student_Key
     FROM Students
-    ORDER BY Student_Key ASC;
 END;
 GO
 
 -------------------- GET COURSES -------------------------
+IF OBJECT_ID ('dbo.spGetCourseDept', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetCourseDept;  
+GO
 CREATE PROCEDURE spGetCourseDept
 AS
 BEGIN
@@ -77,6 +102,9 @@ END;
 GO
 
 -------------------- GET DATES -------------------------
+IF OBJECT_ID ('dbo.spGetSemester', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetSemester;  
+GO
 CREATE PROCEDURE spGetSemester
 AS
 BEGIN
@@ -86,6 +114,9 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID ('dbo.spGetYear', 'P') IS NOT NULL  
+    DROP PROCEDURE dbo.spGetYear;  
+GO
 CREATE PROCEDURE spGetYear
 AS
 BEGIN
