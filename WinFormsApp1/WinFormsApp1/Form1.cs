@@ -125,12 +125,12 @@ namespace WinFormsApp1
                 if (cmbUni.SelectedIndex != 0)
                 {
                     String university = (String)cmbUni.SelectedItem;
-                    whereQuery.Append(" AND University = '" + university + "'");
+                    whereQuery.Append(" AND Instructors.University = '" + university + "'");
                 }
                 if (cmbRank.SelectedIndex != 0)
                 {
                     String rank = (String)cmbRank.SelectedItem;
-                    whereQuery.Append(" AND Rank = '" + rank + "'");
+                    whereQuery.Append(" AND Instructors.Rank = '" + rank + "'");
                 }
             }
 
@@ -157,12 +157,12 @@ namespace WinFormsApp1
                 if (cmbMajor.SelectedIndex != 0)
                 {
                     String major = (String)cmbMajor.SelectedItem;
-                    whereQuery.Append(" AND Major = '" + major + "'");
+                    whereQuery.Append(" AND Students.Major = '" + major + "'");
                 }
                 if (cmbGender.SelectedIndex != 0)
                 {
                     String gender = (String)cmbGender.SelectedItem;
-                    whereQuery.Append(" AND Gender = '" + gender + "'");
+                    whereQuery.Append(" AND Students.Gender = '" + gender + "'");
                 }
             }
 
@@ -179,8 +179,6 @@ namespace WinFormsApp1
                 {
                     whereQuery.Append(" AND CoursesTaken.Course_Key=Courses.Course_Key");
                 }
-
-
 
                 // Check to see which cmb is not index 0 then put a where clause for it
                 if (cmbDept.SelectedIndex != 0)
@@ -209,12 +207,12 @@ namespace WinFormsApp1
                 if (cmbSemester.SelectedIndex != 0)
                 {
                     String semester = (String)cmbSemester.SelectedItem;
-                    whereQuery.Append(" AND Semester = '" + semester + "'");
+                    whereQuery.Append(" AND Date.Semester = '" + semester + "'");
                 }
                 if (cmbYear.SelectedIndex != 0)
                 {
                     String year = (String)cmbYear.SelectedItem;
-                    whereQuery.Append(" AND Year = '" + year + "'");
+                    whereQuery.Append(" AND Date.Year = '" + year + "'");
                 }
             }
 
