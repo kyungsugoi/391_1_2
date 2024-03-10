@@ -477,6 +477,7 @@ namespace WinFormsApp1
                     // Here, we'll just print the XML to the console.
                     // You might want to process it as per your needs.
                     Console.WriteLine(xmlDoc.ToString());
+                    MessageBox.Show(xmlDoc.ToString());
 
                     // If you need to access specific elements, you can query the document. For example:
                     // var myElements = xmlDoc.Root.Elements("MyElementName");
