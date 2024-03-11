@@ -473,22 +473,152 @@ namespace WinFormsApp1
                     // Load the XML file
                     XDocument xmlDoc = XDocument.Load(filePath);
 
-                    // Example of processing the XML file
-                    // Here, we'll just print the XML to the console.
-                    // You might want to process it as per your needs.
-                    Console.WriteLine(xmlDoc.ToString());
-                    MessageBox.Show(xmlDoc.ToString());
+                    // Process each instructor in the XML
+                    foreach (var instructorElement in xmlDoc.Descendants("instructor"))
+                    {
+                        var faculty = instructorElement.Element("Faculty").Value;
+                        var rank = instructorElement.Element("Rank").Value;
+                        var university = instructorElement.Element("University").Value;
 
-                    // If you need to access specific elements, you can query the document. For example:
-                    // var myElements = xmlDoc.Root.Elements("MyElementName");
-                    // foreach (var elem in myElements)
-                    // {
-                    //     Console.WriteLine(elem.Value);
-                    // }
+                        using (var myCommand = new SqlCommand("spInsertOrUpdateInstructor", myConnection))
+                        {
+                            myCommand.CommandType = CommandType.StoredProcedure;
+                            myCommand.Parameters.Clear();
+                            myCommand.Parameters.AddWithValue("@Faculty", faculty);
+                            myCommand.Parameters.AddWithValue("@Rank", rank);
+                            myCommand.Parameters.AddWithValue("@University", university);
+
+                            // Execute the command
+                            myCommand.ExecuteNonQuery();
+                        }
+                    }
+
+                    // Process each student in the XML
+                    foreach (var studentElement in xmlDoc.Descendants("student"))
+                    {
+                        var major = studentElement.Element("Major").Value;
+                        var gender = studentElement.Element("Gender").Value;
+
+                        using (var myCommand = new SqlCommand("spInsertOrUpdateStudent", myConnection))
+                        {
+                            myCommand.CommandType = CommandType.StoredProcedure;
+                            myCommand.Parameters.Clear();
+                            myCommand.Parameters.AddWithValue("@Major", major);
+                            myCommand.Parameters.AddWithValue("@Gender", gender);
+
+                            // Execute the command
+                            myCommand.ExecuteNonQuery();
+                        }
+                    }
+
+                    // Process each course in the XML
+                    foreach (var courseElement in xmlDoc.Descendants("course"))
+                    {
+                        var department = courseElement.Element("Department").Value;
+                        var faculty = courseElement.Element("Faculty").Value;
+                        var university = courseElement.Element("University").Value;
+
+                        using (var myCommand = new SqlCommand("spInsertOrUpdateCourse", myConnection))
+                        {
+                            myCommand.CommandType = CommandType.StoredProcedure;
+                            myCommand.Parameters.Clear();
+                            myCommand.Parameters.AddWithValue("@Department", department);
+                            myCommand.Parameters.AddWithValue("@Faculty", faculty);
+                            myCommand.Parameters.AddWithValue("@University", university);
+
+
+                            // Execute the command
+                            myCommand.ExecuteNonQuery();
+                        }
+                    }
+
+                    // Process each date in the XML
+                    foreach (var dateElement in xmlDoc.Descendants("date"))
+                    {
+                        var semester = dateElement.Element("Semester").Value;
+                        var year = dateElement.Element("Year").Value;
+
+                        using (var myCommand = new SqlCommand("spInsertOrUpdateDate", myConnection))
+                        {
+                            myCommand.CommandType = CommandType.StoredProcedure;
+                            myCommand.Parameters.Clear();
+                            myCommand.Parameters.AddWithValue("@Semester", semester);
+                            myCommand.Parameters.AddWithValue("@Year", year);
+
+
+                            // Execute the command
+                            myCommand.ExecuteNonQuery();
+                        }
+                    }
+
+                    // Process each CT in the XML
+                    /*
+                    foreach (var ctElement in xmlDoc.Descendants("ct"))
+                    {
+                        var iKey = ctElement.Element("Instructor_Key").Value;
+                        var sKey = ctElement.Element("Student_Key").Value;
+                        var cKey = ctElement.Element("Course_Key").Value;
+                        var dKey = ctElement.Element("Date_Key").Value;
+                        var total = ctElement.Element("Total_Courses").Value;
+
+
+
+
+                        using (var myCommand = new SqlCommand("spInsertOrUpdateCT", myConnection))
+                        {
+                            myCommand.CommandType = CommandType.StoredProcedure;
+                            myCommand.Parameters.Clear();
+                            myCommand.Parameters.AddWithValue("@InstructorKey", iKey);
+                            myCommand.Parameters.AddWithValue("@StudentKey", sKey);
+                            myCommand.Parameters.AddWithValue("@CourseKey", cKey);
+                            myCommand.Parameters.AddWithValue("@DateKey", dKey);
+                            myCommand.Parameters.AddWithValue("@TotalCourses", total);
+
+
+                            // Execute the command
+                            myCommand.ExecuteNonQuery();
+                        }
+                    }
+                    */
+                    
+
+
+
+
+                    // REFILL DROPDOWNS WITH UPDATED DATA
+                    cmbInstruct.Items.Clear();
+                    fillInstBox();
+
+                    cmbFaculty.Items.Clear();
+                    fillInstFacultyBox();
+
+                    cmbRank.Items.Clear();
+                    fillInstRankBox();
+
+                    cmbUni.Items.Clear();
+                    fillInstUniBox();
+
+                    cmbStudents.Items.Clear();
+                    fillStuBox();
+
+                    cmbMajor.Items.Clear();
+                    fillStuMajorBox();
+                      
+                    cmbGender.Items.Clear();
+                    fillStuGenderBox();
+
+                    cmbDept.Items.Clear();
+                    fillCourseBox();
+
+                    cmbSemester.Items.Clear();
+                    fillSemesterBox();
+
+                    cmbYear.Items.Clear();
+                    fillYearBox();
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error reading the XML file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Error processing the XML file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
