@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Instructors>
+        <instructor>
+            <Faculty>Arts and Science</Faculty>
+            <Rank>Full-time</Rank>
+            <University>MacEwan</University>
+        </instructor>
+        <!-- Adding this instructor should add Skilled Trades to the Faculties and NAIT to the Universities -->
+        <instructor>
+            <Faculty>Skilled Trades</Faculty>
+            <Rank>Full-time</Rank>
+            <University>NAIT</University>
+        </instructor>
+    </Instructors>
+    <Students>
+        <student>
+            <Major>CMPT</Major>
+            <Gender>M</Gender>
+        </student>
+        <student>
+            <Major>ENGL</Major>
+            <Gender>F</Gender>
+        </student>
+        <student>
+            <Major>DESN</Major>
+            <Gender>F</Gender>
+        </student>
+        <!-- Adding these 3 students should add WELD, CARP, and USND to the Majors -->
+        <student>
+            <Major>WELD</Major>
+            <Gender>F</Gender>
+        </student>
+        <student>
+            <Major>CARP</Major>
+            <Gender>M</Gender>
+        </student>
+        <student>
+            <Major>USND</Major>
+            <Gender>F</Gender>
+        </student>
+    </Students>
+    <Courses>
+        <!-- Adding these courses should also add the departments, faculties, and universities to the dropdowns if they don't exist-->
+        <course>
+            <Department>Applied Sciences and Technology</Department>
+            <Faculty>Analytical Sciences</Faculty>
+            <University>SAIT</University>
+        </course>
+        <course>
+            <Department>Applied Sciences and Technology</Department>
+            <Faculty>Manufacturing and Automation</Faculty>
+            <University>NAIT</University>
+        </course>
+    </Courses>
+    <Date>
+        <date>
+            <Semester>Winter</Semester>
+            <Year>2025</Year>
+        </date>
+        <date>
+            <Semester>Spring</Semester>
+            <Year>2025</Year>
+        </date>
+        <date>
+            <Semester>Summer</Semester>
+            <Year>2025</Year>
+        </date>
+        <date>
+            <Semester>Fall</Semester>
+            <Year>2025</Year>
+        </date>
+    </Date>
+    <CoursesTaken>
+        <!-- Now that there are new instructors, students, courses, and dates added, we should be able to add them into CoursesTaken -->
+        <ct>
+            <Instructor_Key>1201</Instructor_Key>
+            <Student_Key>10001</Student_Key>
+            <Course_Key>2001</Course_Key>
+            <Date_Key>141</Date_Key>
+            <Total_Courses>1</Total_Courses>
+        </ct>
+        <ct>
+            <Instructor_Key>1201</Instructor_Key>
+            <Student_Key>10002</Student_Key>
+            <Course_Key>2002</Course_Key>
+            <Date_Key>142</Date_Key>
+            <Total_Courses>1</Total_Courses>
+        </ct>
+        <ct>
+            <Instructor_Key>1202</Instructor_Key>
+            <Student_Key>10003</Student_Key>
+            <Course_Key>2003</Course_Key>
+            <Date_Key>143</Date_Key>
+            <Total_Courses>1</Total_Courses>
+        </ct>
+    </CoursesTaken>
+</Root>

@@ -88,6 +88,7 @@
             this.cmbUni.Size = new System.Drawing.Size(136, 23);
             this.cmbUni.TabIndex = 1;
             this.cmbUni.Text = "Any";
+            this.cmbUni.TextChanged += cmbUni_TextChanged;
             // 
             // cmbSemester
             // 
@@ -101,6 +102,7 @@
             this.cmbSemester.Size = new System.Drawing.Size(136, 23);
             this.cmbSemester.TabIndex = 2;
             this.cmbSemester.Text = "Any";
+            this.cmbSemester.TextChanged += cmbSemester_TextChanged;
             // 
             // cmbDept
             // 
@@ -114,6 +116,7 @@
             this.cmbDept.Size = new System.Drawing.Size(136, 23);
             this.cmbDept.TabIndex = 3;
             this.cmbDept.Text = "Any";
+            this.cmbDept.TextChanged += cmbDept_TextChanged;
             // 
             // cmbFaculty
             // 
@@ -127,6 +130,7 @@
             this.cmbFaculty.Size = new System.Drawing.Size(136, 23);
             this.cmbFaculty.TabIndex = 4;
             this.cmbFaculty.Text = "Any";
+            this.cmbFaculty.TextChanged += cmbFaculty_TextChanged;
             // 
             // cmbInstruct
             // 
@@ -138,6 +142,7 @@
             this.cmbInstruct.Size = new System.Drawing.Size(136, 23);
             this.cmbInstruct.TabIndex = 5;
             this.cmbInstruct.Text = "Any";
+            this.cmbInstruct.TextChanged += cmbInstruct_TextChanged;
             // 
             // cmbRank
             // 
@@ -151,6 +156,7 @@
             this.cmbRank.Size = new System.Drawing.Size(136, 23);
             this.cmbRank.TabIndex = 6;
             this.cmbRank.Text = "Any";
+            this.cmbRank.TextChanged += cmbRank_TextChanged;
             // 
             // cmbYear
             // 
@@ -164,6 +170,7 @@
             this.cmbYear.Size = new System.Drawing.Size(136, 23);
             this.cmbYear.TabIndex = 7;
             this.cmbYear.Text = "Any";
+            this.cmbYear.TextChanged += cmbYear_TextChanged;
             // 
             // cmbStudents
             // 
@@ -175,6 +182,7 @@
             this.cmbStudents.Size = new System.Drawing.Size(136, 23);
             this.cmbStudents.TabIndex = 8;
             this.cmbStudents.Text = "Any";
+            this.cmbStudents.TextChanged += cmbStudents_TextChanged;
             // 
             // label1
             // 
@@ -326,6 +334,7 @@
             this.cmbMajor.Size = new System.Drawing.Size(136, 23);
             this.cmbMajor.TabIndex = 23;
             this.cmbMajor.Text = "Any";
+            this.cmbMajor.TextChanged += cmbMajor_TextChanged;
             // 
             // label15
             // 
@@ -348,6 +357,7 @@
             this.cmbGender.Size = new System.Drawing.Size(136, 23);
             this.cmbGender.TabIndex = 25;
             this.cmbGender.Text = "Any";
+            this.cmbGender.TextChanged += cmbGender_TextChanged;
             // 
             // label16
             // 
