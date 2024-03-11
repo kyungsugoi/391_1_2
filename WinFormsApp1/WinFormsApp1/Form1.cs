@@ -1,6 +1,7 @@
 using System.Data;
 using System.Text;
 using System.Data.SqlClient;
+using System.Xml.Linq;
 
 namespace WinFormsApp1
 {
@@ -25,6 +26,8 @@ namespace WinFormsApp1
 
         public String Semester = "Any";
         public String Year = "Any";
+        private OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
 
         public Form1()
         {
@@ -452,6 +455,43 @@ namespace WinFormsApp1
         private void cmbYear_TextChanged(object sender, EventArgs e)
         {
             Year = cmbYear.Text;
+        }
+
+        private void btnUpload_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "XML Files|*.xml";
+            openFileDialog1.Title = "Select an XML File";
+
+            // Show the dialog and check if the user selected a file
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                var filePath = openFileDialog1.FileName;
+
+                try
+                {
+                    // Load the XML file
+                    XDocument xmlDoc = XDocument.Load(filePath);
+
+                    // Example of processing the XML file
+                    // Here, we'll just print the XML to the console.
+                    // You might want to process it as per your needs.
+                    Console.WriteLine(xmlDoc.ToString());
+                    MessageBox.Show(xmlDoc.ToString());
+
+                    // If you need to access specific elements, you can query the document. For example:
+                    // var myElements = xmlDoc.Root.Elements("MyElementName");
+                    // foreach (var elem in myElements)
+                    // {
+                    //     Console.WriteLine(elem.Value);
+                    // }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error reading the XML file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
         }
     }
 }
