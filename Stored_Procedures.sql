@@ -132,18 +132,19 @@ GO
 IF OBJECT_ID ('dbo.spInsertOrUpdateInstructor', 'P') IS NOT NULL  
     DROP PROCEDURE dbo.spInsertOrUpdateInstructor;  
 GO
+
 CREATE PROCEDURE spInsertOrUpdateInstructor
-    @Faculty NVARCHAR(MAX),
-    @Rank NVARCHAR(MAX),
-    @University NVARCHAR(MAX)
+    @Faculty VARCHAR(MAX),
+    @Rank VARCHAR(MAX),
+    @University VARCHAR(MAX)
 AS
 BEGIN
     -- Starting a transaction
     BEGIN TRY
         BEGIN TRANSACTION;
         
-        -- Check if the instructor already exists (Assuming combination of Faculty, Rank, and University is unique for each instructor)
-        IF NOT EXISTS (SELECT 1 FROM dbo.Instructors WHERE Faculty = @Faculty AND Rank = @Rank AND University = @University)
+        -- Instructor is guaranteed to be unique since the primary key is the identity
+        -- IF NOT EXISTS (SELECT 1 FROM dbo.Instructors WHERE Faculty = @Faculty AND Rank = @Rank AND University = @University)
         BEGIN
             -- Insert the new instructor since it does not exist
             INSERT INTO dbo.Instructors (Faculty, Rank, University)
@@ -167,11 +168,13 @@ BEGIN
         THROW;
     END CATCH
 END
-
+GO
 
 IF OBJECT_ID ('dbo.spInsertOrUpdateStudent', 'P') IS NOT NULL  
     DROP PROCEDURE dbo.spInsertOrUpdateStudent;  
 GO
+
+
 CREATE PROCEDURE spInsertOrUpdateStudent
     @Major CHAR(4),
     @Gender VARCHAR(MAX)
@@ -182,7 +185,7 @@ BEGIN
         BEGIN TRANSACTION;
         
         -- Check if the instructor already exists (Assuming combination of Faculty, Rank, and University is unique for each instructor)
-        IF NOT EXISTS (SELECT 1 FROM dbo.Students WHERE Major = @Major AND Gender = @Gender)
+        --IF NOT EXISTS (SELECT 1 FROM dbo.Students WHERE Major = @Major AND Gender = @Gender)
         BEGIN
             -- Insert the new instructor since it does not exist
             INSERT INTO dbo.Students(Major, Gender)
@@ -206,11 +209,13 @@ BEGIN
         THROW;
     END CATCH
 END
+GO
 
 
 IF OBJECT_ID ('dbo.spInsertOrUpdateCourse', 'P') IS NOT NULL  
     DROP PROCEDURE dbo.spInsertOrUpdateCourse;  
 GO
+
 CREATE PROCEDURE spInsertOrUpdateCourse
     @Department VARCHAR(MAX),
     @Faculty VARCHAR(MAX),
@@ -222,7 +227,7 @@ BEGIN
         BEGIN TRANSACTION;
         
         -- Check if the instructor already exists (Assuming combination of Faculty, Rank, and University is unique for each instructor)
-        IF NOT EXISTS (SELECT 1 FROM dbo.Courses WHERE Department = @Department AND Faculty = @Faculty AND University = @University)
+        --IF NOT EXISTS (SELECT 1 FROM dbo.Courses WHERE Department = @Department AND Faculty = @Faculty AND University = @University)
         BEGIN
             -- Insert the new instructor since it does not exist
             INSERT INTO dbo.Courses(Department, Faculty, University)
@@ -246,12 +251,13 @@ BEGIN
         THROW;
     END CATCH
 END
-
+GO
 
 
 IF OBJECT_ID ('dbo.spInsertOrUpdateDate', 'P') IS NOT NULL  
     DROP PROCEDURE dbo.spInsertOrUpdateDate;  
 GO
+
 CREATE PROCEDURE spInsertOrUpdateDate
     @Semester VARCHAR(MAX),
     @Year numeric(4, 0)
@@ -262,9 +268,9 @@ BEGIN
         BEGIN TRANSACTION;
         
         -- Check if the instructor already exists (Assuming combination of Faculty, Rank, and University is unique for each instructor)
-        IF NOT EXISTS (SELECT 1 FROM dbo.Date WHERE Semester = @Semester AND Year = @Year)
+        --IF NOT EXISTS (SELECT 1 FROM dbo.Date WHERE Semester = @Semester AND Year = @Year)
         BEGIN
-            -- Insert the new instructor since it does not exist
+            -- Insert the new date since it does not exist
             INSERT INTO dbo.Date(Semester, Year)
             VALUES (@Semester, @Year);
         END
@@ -286,13 +292,13 @@ BEGIN
         THROW;
     END CATCH
 END
-
-
+GO
 
 
 IF OBJECT_ID ('dbo.spInsertOrUpdateCT', 'P') IS NOT NULL  
     DROP PROCEDURE dbo.spInsertOrUpdateCT;  
 GO
+
 CREATE PROCEDURE spInsertOrUpdateCT
 	@InstructorKey	numeric(18, 0),	
 	@StudentKey	numeric(18, 0),	
@@ -306,7 +312,7 @@ BEGIN
         BEGIN TRANSACTION;
         
         -- Check if the instructor already exists (Assuming combination of Faculty, Rank, and University is unique for each instructor)
-        IF NOT EXISTS (SELECT 1 FROM dbo.CoursesTaken WHERE Instructor_Key = @InstructorKey AND Student_Key = @StudentKey AND Course_Key = @CourseKey AND Date_Key = @DateKey and Total_Courses = Total_Courses)
+        IF NOT EXISTS (SELECT 1 FROM dbo.CoursesTaken WHERE Instructor_Key = @InstructorKey AND Student_Key = @StudentKey AND Course_Key = @CourseKey AND Date_Key = @DateKey)
         BEGIN
             -- Insert the new instructor since it does not exist
             INSERT INTO dbo.CoursesTaken(Instructor_Key, Student_Key, Course_Key, Date_Key, Total_Courses)
@@ -330,3 +336,4 @@ BEGIN
         THROW;
     END CATCH
 END
+GO
