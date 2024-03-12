@@ -75,60 +75,60 @@ namespace WinFormsApp1
             StringBuilder whereQuery = new StringBuilder();
             String delimiter = " WHERE ";
 
-            if (cmbInstruct.SelectedIndex != 0)
+            if (cmbInstruct.Text != "Any")
             {
                 whereQuery.Append(delimiter).Append("CT.Instructor_Key = '" + Instructor + "'");
                 delimiter = " AND ";
             }
 
             // Instructor Table dynamic conditions
-            if (cmbFaculty.SelectedIndex != 0 || cmbUni.SelectedIndex != 0 || cmbRank.SelectedIndex != 0)
+            if (cmbFaculty.Text != "Any" || cmbUni.Text != "Any" || cmbRank.Text != "Any")
             {
                 fromQuery.Append(", Instructors I");
                 whereQuery.Append(delimiter).Append("CT.Instructor_Key = I.Instructor_Key");
                 delimiter = " AND ";
 
                 // Check to see which cmb is not index 0 then put a where clause for it
-                if (cmbFaculty.SelectedIndex != 0)
+                if (cmbFaculty.Text != "Any")
                 {
                     whereQuery.Append(delimiter).Append("I.Faculty = '" + Faculty + "'");
                 }
-                if (cmbUni.SelectedIndex != 0)
+                if (cmbUni.Text != "Any")
                 {
                     whereQuery.Append(delimiter).Append("I.University = '" + University + "'");
                 }
-                if (cmbRank.SelectedIndex != 0)
+                if (cmbRank.Text != "Any")
                 {
                     whereQuery.Append(delimiter).Append("I.Rank = '" + Rank + "'");
                 }
             }
 
-            if (cmbStudents.SelectedIndex != 0)
+            if (cmbStudents.Text != "Any")
             {
                 whereQuery.Append(delimiter).Append("CT.Student_Key = '" + Student + "'");
                 delimiter = " AND ";
             }
 
             // Student Table dynamic conditions
-            if (cmbMajor.SelectedIndex != 0 || cmbGender.SelectedIndex != 0)
+            if (cmbMajor.Text != "Any" || cmbGender.Text != "Any")
             {
                 fromQuery.Append(", Students S");
                 whereQuery.Append(delimiter).Append("CT.Student_Key = S.Student_Key");
                 delimiter = " AND ";
 
                 // Check to see which cmb is not index 0 then put a where clause for it
-                if (cmbMajor.SelectedIndex != 0)
+                if (cmbMajor.Text != "Any")
                 {
                     whereQuery.Append(delimiter).Append("S.Major = '" + Major + "'");
                 }
-                if (cmbGender.SelectedIndex != 0)
+                if (cmbGender.Text != "Any")
                 {
                     whereQuery.Append(delimiter).Append("S.Gender = '" + Gender + "'");
                 }
             }
 
             // Courses Table dynamic conditions
-            if (cmbDept.SelectedIndex != 0)
+            if (cmbDept.Text != "Any")
             {
                 fromQuery.Append(", Courses C");
                 whereQuery.Append(delimiter).Append("CT.Course_Key = C.Course_Key");
@@ -137,18 +137,18 @@ namespace WinFormsApp1
             }
 
             // Date Table dynamic conditions
-            if (cmbSemester.SelectedIndex != 0 || cmbYear.SelectedIndex != 0)
+            if (cmbSemester.Text != "Any" || cmbYear.Text != "Any")
             {
                 fromQuery.Append(", Date D");
                 whereQuery.Append(delimiter).Append("CT.Date_Key = D.Date_Key");
                 delimiter = " AND ";
 
                 // Check to see which cmb is not index 0 then put a where clause for it
-                if (cmbSemester.SelectedIndex != 0)
+                if (cmbSemester.Text != "Any")
                 {
                     whereQuery.Append(delimiter).Append("D.Semester = '" + Semester + "'");
                 }
-                if (cmbYear.SelectedIndex != 0)
+                if (cmbYear.Text != "Any")
                 {
                     whereQuery.Append(delimiter).Append("D.Year = '" + Year + "'");
                 }
@@ -552,7 +552,7 @@ namespace WinFormsApp1
                     }
 
                     // Process each CT in the XML
-                    /*
+                    
                     foreach (var ctElement in xmlDoc.Descendants("ct"))
                     {
                         var iKey = ctElement.Element("Instructor_Key").Value;
@@ -579,41 +579,47 @@ namespace WinFormsApp1
                             myCommand.ExecuteNonQuery();
                         }
                     }
-                    */
-                    
-
-
 
 
                     // REFILL DROPDOWNS WITH UPDATED DATA
                     cmbInstruct.Items.Clear();
+                    cmbInstruct.Items.Add("Any");
                     fillInstBox();
 
                     cmbFaculty.Items.Clear();
+                    cmbFaculty.Items.Add("Any");
                     fillInstFacultyBox();
 
                     cmbRank.Items.Clear();
+                    cmbRank.Items.Add("Any");
                     fillInstRankBox();
 
                     cmbUni.Items.Clear();
+                    cmbUni.Items.Add("Any");
                     fillInstUniBox();
 
                     cmbStudents.Items.Clear();
+                    cmbStudents.Items.Add("Any");
                     fillStuBox();
 
                     cmbMajor.Items.Clear();
+                    cmbMajor.Items.Add("Any");
                     fillStuMajorBox();
                       
                     cmbGender.Items.Clear();
+                    cmbGender.Items.Add("Any");
                     fillStuGenderBox();
 
                     cmbDept.Items.Clear();
+                    cmbDept.Items.Add("Any");
                     fillCourseBox();
 
                     cmbSemester.Items.Clear();
+                    cmbSemester.Items.Add("Any");
                     fillSemesterBox();
 
                     cmbYear.Items.Clear();
+                    cmbYear.Items.Add("Any");
                     fillYearBox();
                 }
                 catch (Exception ex)
