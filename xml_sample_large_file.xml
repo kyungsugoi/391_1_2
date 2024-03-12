@@ -18006,6 +18006,24 @@
             <University>Mount Royal University</University>
         </course>
     </Courses>
+    <Date>
+        <date>
+            <Semester>Winter</Semester>
+            <Year>2025</Year>
+        </date>
+        <date>
+            <Semester>Spring</Semester>
+            <Year>2025</Year>
+        </date>
+        <date>
+            <Semester>Summer</Semester>
+            <Year>2025</Year>
+        </date>
+        <date>
+            <Semester>Fall</Semester>
+            <Year>2025</Year>
+        </date>
+    </Date>
     <CoursesTaken>
         <ct>
             <Instructor_Key>1759</Instructor_Key>
@@ -20354,7 +20372,7 @@
         </ct>
         <ct>
             <Instructor_Key>1440</Instructor_Key>
-            <Student_Key>12005</Student_Key>
+            <Student_Key>12000</Student_Key>
             <Course_Key>2814</Course_Key>
             <Date_Key>117</Date_Key>
             <Total_Courses>1</Total_Courses>
@@ -23505,7 +23523,7 @@
         <ct>
             <Instructor_Key>1141</Instructor_Key>
             <Student_Key>1448</Student_Key>
-            <Course_Key>3001</Course_Key>
+            <Course_Key>3000</Course_Key>
             <Date_Key>144</Date_Key>
             <Total_Courses>1</Total_Courses>
         </ct>
@@ -31142,7 +31160,7 @@
         <ct>
             <Instructor_Key>1795</Instructor_Key>
             <Student_Key>4668</Student_Key>
-            <Course_Key>3001</Course_Key>
+            <Course_Key>3000</Course_Key>
             <Date_Key>25</Date_Key>
             <Total_Courses>1</Total_Courses>
         </ct>
@@ -31231,7 +31249,7 @@
             <Total_Courses>1</Total_Courses>
         </ct>
         <ct>
-            <Instructor_Key>2201</Instructor_Key>
+            <Instructor_Key>2200</Instructor_Key>
             <Student_Key>7522</Student_Key>
             <Course_Key>1400</Course_Key>
             <Date_Key>57</Date_Key>

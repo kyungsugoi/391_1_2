@@ -268,7 +268,7 @@ BEGIN
         BEGIN TRANSACTION;
         
         -- Check if the instructor already exists (Assuming combination of Faculty, Rank, and University is unique for each instructor)
-        --IF NOT EXISTS (SELECT 1 FROM dbo.Date WHERE Semester = @Semester AND Year = @Year)
+        IF NOT EXISTS (SELECT 1 FROM dbo.Date WHERE Semester = @Semester AND Year = @Year)
         BEGIN
             -- Insert the new date since it does not exist
             INSERT INTO dbo.Date(Semester, Year)
