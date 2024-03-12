@@ -2,7 +2,7 @@
 <Root>
     <Instructors>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -27,7 +27,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -47,12 +47,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -72,7 +72,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -97,7 +97,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -112,17 +112,17 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -137,7 +137,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -172,12 +172,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -187,7 +187,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -207,7 +207,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -222,12 +222,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -252,7 +252,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -262,12 +262,12 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -317,7 +317,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -342,7 +342,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -387,7 +387,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -437,17 +437,17 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -462,27 +462,27 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -497,7 +497,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -537,7 +537,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -582,7 +582,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -622,7 +622,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -632,12 +632,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -672,17 +672,17 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -707,12 +707,12 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -737,7 +737,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -767,7 +767,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -777,7 +777,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -787,7 +787,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -797,7 +797,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -822,7 +822,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -832,12 +832,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -847,7 +847,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -862,7 +862,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -872,7 +872,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -882,7 +882,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -902,7 +902,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -917,17 +917,17 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -952,12 +952,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -977,7 +977,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1002,12 +1002,12 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1027,7 +1027,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1042,7 +1042,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1077,7 +1077,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -1102,12 +1102,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -1142,7 +1142,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1192,17 +1192,17 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1217,12 +1217,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1232,12 +1232,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1257,7 +1257,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1267,7 +1267,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1287,7 +1287,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1297,7 +1297,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1317,12 +1317,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1382,7 +1382,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1392,12 +1392,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -1407,12 +1407,12 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1427,7 +1427,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1462,7 +1462,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1477,7 +1477,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1497,7 +1497,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -1517,7 +1517,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1527,7 +1527,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1572,12 +1572,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1592,7 +1592,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1607,12 +1607,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1627,7 +1627,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1637,7 +1637,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1662,7 +1662,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -1687,7 +1687,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1727,12 +1727,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1742,12 +1742,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1757,12 +1757,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1787,7 +1787,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1852,12 +1852,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -1892,7 +1892,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1932,7 +1932,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -1962,7 +1962,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -1972,7 +1972,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -1987,17 +1987,17 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2017,22 +2017,22 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2042,12 +2042,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2062,12 +2062,12 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2087,12 +2087,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -2112,7 +2112,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2172,7 +2172,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -2182,12 +2182,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2202,7 +2202,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2227,12 +2227,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -2252,7 +2252,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2287,7 +2287,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2337,12 +2337,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2357,7 +2357,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2392,17 +2392,17 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2427,7 +2427,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2462,12 +2462,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2492,7 +2492,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2502,12 +2502,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -2527,7 +2527,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2542,7 +2542,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2577,7 +2577,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2592,7 +2592,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2612,7 +2612,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2632,17 +2632,17 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2652,12 +2652,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2667,7 +2667,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2677,7 +2677,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2707,7 +2707,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2717,12 +2717,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -2737,12 +2737,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2767,7 +2767,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2782,7 +2782,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -2797,7 +2797,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2817,7 +2817,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2842,22 +2842,22 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2867,12 +2867,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2882,12 +2882,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -2912,7 +2912,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2952,7 +2952,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -2972,7 +2972,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -2982,7 +2982,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3007,32 +3007,32 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3062,7 +3062,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3072,12 +3072,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3107,12 +3107,12 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3122,12 +3122,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -3152,7 +3152,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3177,7 +3177,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3237,12 +3237,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3252,7 +3252,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3262,7 +3262,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3272,17 +3272,17 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -3292,12 +3292,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3342,7 +3342,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3367,17 +3367,17 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3392,7 +3392,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3407,7 +3407,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3427,7 +3427,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3447,7 +3447,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3462,7 +3462,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -3472,7 +3472,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -3507,7 +3507,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3542,7 +3542,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -3562,12 +3562,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -3602,12 +3602,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3627,17 +3627,17 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3647,17 +3647,17 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3672,12 +3672,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3687,7 +3687,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3712,7 +3712,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3737,7 +3737,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3752,22 +3752,22 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3777,12 +3777,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -3812,7 +3812,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3842,22 +3842,22 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3882,7 +3882,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3927,7 +3927,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -3937,7 +3937,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3947,7 +3947,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -3962,7 +3962,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -3997,12 +3997,12 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4012,7 +4012,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4022,12 +4022,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4057,7 +4057,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4072,7 +4072,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4097,7 +4097,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4117,12 +4117,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4132,7 +4132,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4152,7 +4152,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4182,12 +4182,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4227,7 +4227,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4237,17 +4237,17 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4267,7 +4267,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4302,7 +4302,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4322,7 +4322,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4337,7 +4337,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4347,7 +4347,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4377,17 +4377,17 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4402,7 +4402,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4427,7 +4427,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4482,7 +4482,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4512,7 +4512,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4532,7 +4532,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4547,7 +4547,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4557,7 +4557,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4572,7 +4572,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4602,12 +4602,12 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4617,12 +4617,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>Mount Royal University</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4647,7 +4647,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4682,7 +4682,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4697,22 +4697,22 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4732,7 +4732,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4767,7 +4767,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4802,12 +4802,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4817,7 +4817,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -4842,12 +4842,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NorQuest College</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4872,12 +4872,12 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Calgary</University>
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>NAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4887,7 +4887,7 @@
             <Rank>Full-time</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
@@ -4907,7 +4907,7 @@
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4917,22 +4917,22 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Fine Arts and Communication</Faculty>
+            <Faculty>Fine Arts and Communications</Faculty>
             <University>SAIT</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>SAIT</University>
             <Rank>Associate</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>University of Alberta</University>
             <Rank>Assistant</Rank>
         </instructor>
@@ -4972,7 +4972,7 @@
             <Rank>Sessional</Rank>
         </instructor>
         <instructor>
-            <Faculty>Trade</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>Mount Royal University</University>
             <Rank>Sessional</Rank>
         </instructor>
@@ -4987,7 +4987,7 @@
             <Rank>Assistant</Rank>
         </instructor>
         <instructor>
-            <Faculty>Skilled</Faculty>
+            <Faculty>Skilled Trades</Faculty>
             <University>MacEwan</University>
             <Rank>Full-time</Rank>
         </instructor>
@@ -13062,7 +13062,7 @@
         </course>
         <course>
             <Department>Accounting and Finance</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -13077,7 +13077,7 @@
         </course>
         <course>
             <Department>Computer Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -13097,7 +13097,7 @@
         </course>
         <course>
             <Department>Business Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -13162,7 +13162,7 @@
         </course>
         <course>
             <Department>Arts and Cultural Management</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -13172,7 +13172,7 @@
         </course>
         <course>
             <Department>Business Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -13202,7 +13202,7 @@
         </course>
         <course>
             <Department>Human Health &amp; Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Calgary</University>
         </course>
         <course>
@@ -13252,7 +13252,7 @@
         </course>
         <course>
             <Department>Human Health &amp; Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -13477,7 +13477,7 @@
         </course>
         <course>
             <Department>Biological Sciences</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -13607,7 +13607,7 @@
         </course>
         <course>
             <Department>General Medicine</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -13747,7 +13747,7 @@
         </course>
         <course>
             <Department>Human Health &amp; Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -13922,7 +13922,7 @@
         </course>
         <course>
             <Department>Human Health &amp; Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -13972,12 +13972,12 @@
         </course>
         <course>
             <Department>International Business, Marketing, Strategy and Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
             <Department>Accounting and Finance</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -14042,7 +14042,7 @@
         </course>
         <course>
             <Department>Dentistry</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -14057,7 +14057,7 @@
         </course>
         <course>
             <Department>Design</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Calgary</University>
         </course>
         <course>
@@ -14172,12 +14172,12 @@
         </course>
         <course>
             <Department>Accounting and Finance</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
             <Department>Accounting and Finance</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -14232,7 +14232,7 @@
         </course>
         <course>
             <Department>Nursing Foundations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -14272,7 +14272,7 @@
         </course>
         <course>
             <Department>Accounting and Finance</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -14297,7 +14297,7 @@
         </course>
         <course>
             <Department>English</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -14402,12 +14402,12 @@
         </course>
         <course>
             <Department>Mathematics and Statistics</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
             <Department>Humanities</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -14672,7 +14672,7 @@
         </course>
         <course>
             <Department>Accounting and Finance</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -14772,7 +14772,7 @@
         </course>
         <course>
             <Department>Studio Arts</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -14807,7 +14807,7 @@
         </course>
         <course>
             <Department>Music</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Calgary</University>
         </course>
         <course>
@@ -14837,7 +14837,7 @@
         </course>
         <course>
             <Department>Design</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -14912,7 +14912,7 @@
         </course>
         <course>
             <Department>International Business, Marketing, Strategy and Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -14922,7 +14922,7 @@
         </course>
         <course>
             <Department>Business Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Calgary</University>
         </course>
         <course>
@@ -14977,7 +14977,7 @@
         </course>
         <course>
             <Department>Nursing Practice</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -15197,12 +15197,12 @@
         </course>
         <course>
             <Department>Applied Sciences and Technology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
             <Department>Anthropology, Economics and Political Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -15212,7 +15212,7 @@
         </course>
         <course>
             <Department>General Medicine</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -15262,12 +15262,12 @@
         </course>
         <course>
             <Department>Computer Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
             <Department>Computer Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -15297,7 +15297,7 @@
         </course>
         <course>
             <Department>International Business, Marketing, Strategy and Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -15397,7 +15397,7 @@
         </course>
         <course>
             <Department>Computer Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -15502,7 +15502,7 @@
         </course>
         <course>
             <Department>English as an Additional Language</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -15537,7 +15537,7 @@
         </course>
         <course>
             <Department>Nursing Foundations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -15577,12 +15577,12 @@
         </course>
         <course>
             <Department>University Preparation</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Calgary</University>
         </course>
         <course>
             <Department>Sociology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -15617,7 +15617,7 @@
         </course>
         <course>
             <Department>English</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -15677,7 +15677,7 @@
         </course>
         <course>
             <Department>Theatre</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -15697,7 +15697,7 @@
         </course>
         <course>
             <Department>International Business, Marketing, Strategy and Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -15752,12 +15752,12 @@
         </course>
         <course>
             <Department>Physical Sciences</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
             <Department>Physical Sciences</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -15777,12 +15777,12 @@
         </course>
         <course>
             <Department>Health Systems &amp; Sustainability</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
             <Department>Human Health &amp; Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -15827,7 +15827,7 @@
         </course>
         <course>
             <Department>English</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -15902,7 +15902,7 @@
         </course>
         <course>
             <Department>Dental Hygiene</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -15912,7 +15912,7 @@
         </course>
         <course>
             <Department>English as an Additional Language</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -15937,7 +15937,7 @@
         </course>
         <course>
             <Department>Humanities</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -15977,7 +15977,7 @@
         </course>
         <course>
             <Department>Studio Arts</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -15987,7 +15987,7 @@
         </course>
         <course>
             <Department>Physical Sciences</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Calgary</University>
         </course>
         <course>
@@ -16032,7 +16032,7 @@
         </course>
         <course>
             <Department>Dentistry</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -16042,7 +16042,7 @@
         </course>
         <course>
             <Department>Business Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -16062,12 +16062,12 @@
         </course>
         <course>
             <Department>Applied Sciences and Technology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
             <Department>Anthropology, Economics and Political Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -16112,12 +16112,12 @@
         </course>
         <course>
             <Department>Theatre</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
             <Department>Studio Arts</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -16177,7 +16177,7 @@
         </course>
         <course>
             <Department>Management and Operations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -16222,7 +16222,7 @@
         </course>
         <course>
             <Department>Psychology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -16232,7 +16232,7 @@
         </course>
         <course>
             <Department>Human Health &amp; Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -16252,7 +16252,7 @@
         </course>
         <course>
             <Department>Design</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -16262,7 +16262,7 @@
         </course>
         <course>
             <Department>General Medicine</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -16367,7 +16367,7 @@
         </course>
         <course>
             <Department>Applied Sciences and Technology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -16492,7 +16492,7 @@
         </course>
         <course>
             <Department>General Medicine</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Calgary</University>
         </course>
         <course>
@@ -16547,7 +16547,7 @@
         </course>
         <course>
             <Department>Dental Hygiene</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -16622,7 +16622,7 @@
         </course>
         <course>
             <Department>Human Health &amp; Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -16682,7 +16682,7 @@
         </course>
         <course>
             <Department>Applied Sciences and Technology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NAIT</University>
         </course>
         <course>
@@ -16692,7 +16692,7 @@
         </course>
         <course>
             <Department>Health Systems &amp; Sustainability</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -16717,7 +16717,7 @@
         </course>
         <course>
             <Department>Applied Sciences and Technology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -16792,12 +16792,12 @@
         </course>
         <course>
             <Department>General Medicine</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
             <Department>Management and Operations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -16812,7 +16812,7 @@
         </course>
         <course>
             <Department>Nursing Practice</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -16837,7 +16837,7 @@
         </course>
         <course>
             <Department>General Medicine</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -16892,7 +16892,7 @@
         </course>
         <course>
             <Department>Music</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -16932,7 +16932,7 @@
         </course>
         <course>
             <Department>Dentistry</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -16977,7 +16977,7 @@
         </course>
         <course>
             <Department>Design</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -17102,12 +17102,12 @@
         </course>
         <course>
             <Department>Applied Sciences and Technology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
             <Department>Nursing Foundations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -17137,7 +17137,7 @@
         </course>
         <course>
             <Department>General Medicine</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -17187,7 +17187,7 @@
         </course>
         <course>
             <Department>Design</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -17247,7 +17247,7 @@
         </course>
         <course>
             <Department>Decision Sciences</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -17337,7 +17337,7 @@
         </course>
         <course>
             <Department>Management and Operations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -17352,7 +17352,7 @@
         </course>
         <course>
             <Department>Computer Science</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -17482,7 +17482,7 @@
         </course>
         <course>
             <Department>Humanities</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
@@ -17637,7 +17637,7 @@
         </course>
         <course>
             <Department>Studio Arts</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -17662,12 +17662,12 @@
         </course>
         <course>
             <Department>Business Law</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
             <Department>Communication</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -17677,7 +17677,7 @@
         </course>
         <course>
             <Department>Nursing Foundations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -17692,7 +17692,7 @@
         </course>
         <course>
             <Department>Design</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -17737,12 +17737,12 @@
         </course>
         <course>
             <Department>Nursing Foundations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>NorQuest College</University>
         </course>
         <course>
             <Department>Design</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>Mount Royal University</University>
         </course>
         <course>
@@ -17787,7 +17787,7 @@
         </course>
         <course>
             <Department>Nursing Foundations</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>MacEwan</University>
         </course>
         <course>
@@ -17867,7 +17867,7 @@
         </course>
         <course>
             <Department>Studio Arts</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -17917,7 +17917,7 @@
         </course>
         <course>
             <Department>Applied Sciences and Technology</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -17967,7 +17967,7 @@
         </course>
         <course>
             <Department>Studio Arts</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
@@ -17977,7 +17977,7 @@
         </course>
         <course>
             <Department>Health Systems &amp; Sustainability</Department>
-            <Faculty>Fine Arts and Communications</Faculty>
+            <Faculty>Fine Arts and Communicationss</Faculty>
             <University>University of Alberta</University>
         </course>
         <course>
